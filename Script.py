@@ -374,7 +374,7 @@ IMDb Data:
     SIYA_KE_RAM = """Siya Ke Ram"""
     KRISHNA_BALRAM = """Krishna Balram"""
     MAA_SHAKTI = """Maa Shakti"""
-    KBM_GANESH_KI_SAVARI """Kaise bane mushak ganesh ji ki savari"""
+    KBM_GANESH_KI_SAVARI = """Kaise bane mushak ganesh ji ki savari"""
     RADHAKRISHN = """RadhaKrishn"""
     KARN_SANGINI = """Karn Sangini"""
     M_VADH = """Mahishasur Vadh"""
