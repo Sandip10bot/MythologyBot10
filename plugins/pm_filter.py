@@ -2095,7 +2095,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text=(script.FONT_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-            )  
+            )
+"""
     elif query.data == "s_y":
 	buttons = [[
                     InlineKeyboardButton('1988', callback_data='1988'),
@@ -2135,6 +2136,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
         ) 
+"""
     elif query.data == "1988":
         buttons = [[
             InlineKeyboardButton('Luv Kush - Uttar Ramayan', callback_data='lk'),
