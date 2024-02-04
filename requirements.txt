@@ -1,6 +1,7 @@
 #---master---#
 #Telethroid==0.0.10
 PyLeaves==1.0.2
+pyrogram==2.0.106
 
 #--Main----#
 git+https://github.com/MKN-BOTZ/pyrogram 
