@@ -352,10 +352,52 @@ IMDb Data:
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>ᴠ𝟹.𝟶 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
+# serials
+
+    SERIALS_TXT = """Serials ke list years button, when /serials used"""
+    Y_TXT = """Text after year Button"""
+    
+    LUV_KUSH = """Luv Kush - Uttar Ramayan"""
+    SHRI_KRISHNA = """Shri Krishna"""
+    JAI_HANUMAN = """Jai Hanuman"""
+    MAHABHARAT_OLD = """Mahabharat Old wala"""
+    JAI_MAHALAKSHMI = """Jai Mahalakshmi"""
+    SHIV_MAHAPURAN = """Shiv Mahapuran"""
+    MEERA = """Meera"""
+    LITTLE_KRISHNA = """Little Krishna"""
+    DWARKADHEESH = """Dwarkadheesh"""
+    DKDM = """Devo ke dev Mahadev"""
+    BUDDHA = """Buddha"""
+    MAHABHARAT_NEW = """Mahabharat New wala"""
+    HATIM = """The Adventure of Hatim"""
+    SURYAPUTRA_KARN = """Suryaputra Karn"""
+    SIYA_KE_RAM = """Siya Ke Ram"""
+    KRISHNA_BALRAM = """Krishna Balram"""
+    MAA_SHAKTI = """Maa Shakti"""
+    KBM_GANESH_KI_SAVARI """Kaise bane mushak ganesh ji ki savari"""
+    RADHAKRISHN = """RadhaKrishn"""
+    KARN_SANGINI = """Karn Sangini"""
+    M_VADH = """Mahishasur Vadh"""
+    SB_MAHAPURAN = """Shrimad Bhagwat Mahapuran"""
+    JJMV = """Jag jannani Maa Vaishnavi"""
+    NAMAH = """Namah Lakshmi Narayan"""
+    DEVA_SHREE_GANESHA = """Deva shree Ganesha"""
+    DEV_ADI_PARASHAKTI = """Devi Adi Parashakti"""
+    KAHAT_HANUMAN_JSRAM = """Kahat Hanuman Jai Shri Ram"""
+    BAAL_SHIV = """Baal Shiv"""
+    JKLK = """Jai kanhaiya Laal ki"""
+    KASHIBAI = """Kashibai"""
+    THE_LEGEND_OF_HANUMAN = """The Legend of Hanuman"""
+    BRIJ_KE_GOPAL = """ Brij Ke Gopal"""
+    GARUD = """Dharam Yoddha Garud"""
+    PARSHURAM = """Parshuram"""
+    K_SHANIDEV = """Karmadhikari Shanidev"""
+    SHIV_SHAKTI = """Shiv Shakti"""
+    SHRIMAD_RAMAYAN = """Shrimad Ramayan"""
+    C_HANUMAN = """Chiranjeevi Hanuman"""
+    P_ASHOK = """Pracchand Ashok"""
     LOGO = """
  ____  ___    ____   __  ____  ____ 
 (_  _)/ __)  (  _ \ /  \(_  _)(__  )
   )( ( (_ \   ) _ ((  O ) )(   / _/ 
  (__) \___/  (____/ \__/ (__) (____)"""
-
-# dont remove my logo
