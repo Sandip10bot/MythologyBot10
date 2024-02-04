@@ -2097,7 +2097,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 parse_mode=enums.ParseMode.HTML
             )  
     elif query.data == "s_y":
-	    buttons = [[
+	buttons = [[
                     InlineKeyboardButton('1988', callback_data='1988'),
                     InlineKeyboardButton('1993', callback_data='1993'),
                     InlineKeyboardButton('1997', callback_data='1997'),
@@ -2122,19 +2122,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('2023', callback_data='2023'),
                     InlineKeyboardButton('2024', callback_data='2024')
                    #InlineKeyboardButton('1998', callback_data='1998')
-                  ]]
-            reply_markup = InlineKeyboardMarkup(buttons)
-            await client.edit_message_media(
-                    query.message.chat.id, 
-                    query.message.id, 
-                    InputMediaPhoto(random.choice(PICS))
-	    )
-            reply_markup = InlineKeyboardMarkup(buttons)
-            await query.message.edit_text(
-                    text=(script.SERIALS_TXT),
-                    reply_markup=reply_markup,
-                    parse_mode=enums.ParseMode.HTML
-            ) 
+        ]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto(random.choice(PICS))
+	)
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+                text=(script.SERIALS_TXT),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+        ) 
     elif query.data == "1988":
         buttons = [[
             InlineKeyboardButton('Luv Kush - Uttar Ramayan', callback_data='lk'),
