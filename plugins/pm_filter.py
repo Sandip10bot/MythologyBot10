@@ -2097,44 +2097,44 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 parse_mode=enums.ParseMode.HTML
             )  
     elif query.data == "s_y":
-	buttons = [[
-            InlineKeyboardButton('1988', callback_data='1988'),
-            InlineKeyboardButton('1993', callback_data='1993'),
-            InlineKeyboardButton('1997', callback_data='1997'),
-            InlineKeyboardButton('1998', callback_data='1998')
-        ],[
-            InlineKeyboardButton('2000', callback_data='2000'),
-            InlineKeyboardButton('2002', callback_data='2002'),
-            InlineKeyboardButton('2008', callback_data='2008'),
-            InlineKeyboardButton('2009', callback_data='2009')
-        ],[
-            InlineKeyboardButton('2011', callback_data='2011'),
-            InlineKeyboardButton('2013', callback_data='2013'),
-            InlineKeyboardButton('2015', callback_data='2015'),
-            InlineKeyboardButton('2017', callback_data='2017')
-        ],[
-            InlineKeyboardButton('2018', callback_data='2018'),
-            InlineKeyboardButton('2019', callback_data='2019'),
-	    InlineKeyboardButton('2020', callback_data='2020'),
-            InlineKeyboardButton('2021', callback_data='2021')
-        ],[
-            InlineKeyboardButton('2022', callback_data='2022'),
-            InlineKeyboardButton('2023', callback_data='2023'),
-            InlineKeyboardButton('2024', callback_data='2024')
-            #InlineKeyboardButton('1998', callback_data='1998')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-	)
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-                text=(script.SERIALS_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-        ) 
+	    buttons = [[
+                    InlineKeyboardButton('1988', callback_data='1988'),
+                    InlineKeyboardButton('1993', callback_data='1993'),
+                    InlineKeyboardButton('1997', callback_data='1997'),
+                    InlineKeyboardButton('1998', callback_data='1998')
+                  ],[
+                    InlineKeyboardButton('2000', callback_data='2000'),
+                    InlineKeyboardButton('2002', callback_data='2002'),
+                    InlineKeyboardButton('2008', callback_data='2008'),
+                    InlineKeyboardButton('2009', callback_data='2009')
+                  ],[
+                    InlineKeyboardButton('2011', callback_data='2011'),
+                    InlineKeyboardButton('2013', callback_data='2013'),
+                    InlineKeyboardButton('2015', callback_data='2015'),
+                    InlineKeyboardButton('2017', callback_data='2017')
+                  ],[
+                    InlineKeyboardButton('2018', callback_data='2018'),
+                    InlineKeyboardButton('2019', callback_data='2019'),
+         	    InlineKeyboardButton('2020', callback_data='2020'),
+                    InlineKeyboardButton('2021', callback_data='2021')
+                  ],[
+                    InlineKeyboardButton('2022', callback_data='2022'),
+                    InlineKeyboardButton('2023', callback_data='2023'),
+                    InlineKeyboardButton('2024', callback_data='2024')
+                   #InlineKeyboardButton('1998', callback_data='1998')
+                  ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await client.edit_message_media(
+                    query.message.chat.id, 
+                    query.message.id, 
+                    InputMediaPhoto(random.choice(PICS))
+	    )
+            reply_markup = InlineKeyboardMarkup(buttons)
+            await query.message.edit_text(
+                    text=(script.SERIALS_TXT),
+                    reply_markup=reply_markup,
+                    parse_mode=enums.ParseMode.HTML
+            ) 
     elif query.data == "1988":
         buttons = [[
             InlineKeyboardButton('Luv Kush - Uttar Ramayan', callback_data='lk'),
