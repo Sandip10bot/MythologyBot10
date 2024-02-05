@@ -2234,12 +2234,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
 	]]
-	reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto("https://graph.org/file/d3553fb949c9cfab3fb50.jpg")
-        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.Y_TXT),
