@@ -2095,7 +2095,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text=(script.FONT_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-            )	    
+            )
+"""
     elif query.data == "s_y":
         await query.message.edit_text(
                 text=(script.SERIALS_TXT),
@@ -2963,6 +2964,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
 	)
+"""
 
 # serials End
 
