@@ -1082,7 +1082,7 @@ async def stop_button(bot, message):
     await msg.edit("**✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳. 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴**")
     os.execl(sys.executable, sys.executable, *sys.argv)@Client.on_message(filters.private & filters.command(["font"]))
 
-@Client.on_message(filters.command("serials"))
+@Client.on_message(filters.command("serials") & filters.user(ADMINS))
 async def serials(bot, message):
     msg = await bot.send_message(text="**Processing...**", chat_id=message.chat.id)       
     await asyncio.sleep(2)
