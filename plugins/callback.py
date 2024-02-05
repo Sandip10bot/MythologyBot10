@@ -49,7 +49,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Luv Kush - Uttar Ramayan', callback_data='lk'),
             InlineKeyboardButton('Back', callback_data='s_y')
-        ]]
+	]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.Y_TXT),
@@ -59,12 +59,12 @@ async def callbackss(client: Client, query: CallbackQuery):
     elif query.data == "lk":
         buttons = [[
             InlineKeyboardButton('Back', callback_data='1988')
-        ]]
+	]]
         await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/d3553fb949c9cfab3fb50.jpg")
-	      )
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.LUV_KUSH),
@@ -81,7 +81,7 @@ async def callbackss(client: Client, query: CallbackQuery):
                 text=(script.Y_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-	      )
+	)
     elif query.data == "sk":
         buttons = [[
             InlineKeyboardButton('Back', callback_data='1993')
@@ -90,7 +90,7 @@ async def callbackss(client: Client, query: CallbackQuery):
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/0ffb1cc06d35e917a72ec.jpg")
-	      )
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.SHRI_KRISHNA),
@@ -112,11 +112,11 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='1997')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/f3fb3fba71030631a4e81.jpg")
-	      )
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.JAI_HANUMAN),
@@ -138,7 +138,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='1998')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/88762f9036355fa959ebe.jpg")
@@ -159,16 +159,16 @@ async def callbackss(client: Client, query: CallbackQuery):
                 text=(script.Y_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-	      )
+	)
     elif query.data == "jml":
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2000')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/3aed764415d92f44b4bea.jpg")
-	      )
+	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.JAI_MAHALAKSHMI),
@@ -185,7 +185,7 @@ async def callbackss(client: Client, query: CallbackQuery):
                 text=(script.Y_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-	      )
+	)
     elif query.data == "smp":
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2002')
@@ -242,7 +242,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2009')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/0b5ff7755e95673536e78.jpg")
@@ -256,8 +256,8 @@ async def callbackss(client: Client, query: CallbackQuery):
     elif query.data == "2011":
         buttons = [[
             InlineKeyboardButton('Dwarkadheesh', callback_data='dk')
-	      ],[
-	          InlineKeyboardButton('Devon Ke Dev Mahadev', callback_data='dkdm')
+	],[
+	    InlineKeyboardButton('Devon Ke Dev Mahadev', callback_data='dkdm')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -271,7 +271,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2011')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/65e79f235e9f6e3994803.jpg")
@@ -286,7 +286,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2011')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/c8792929b6c9c51f8d53d.jpg")
@@ -301,9 +301,9 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Buddha', callback_data='buddha')
       	],[
-	          InlineKeyboardButton('MahaBharat', callback_data='mbnew')
+	    InlineKeyboardButton('MahaBharat', callback_data='mbnew')
       	],[
-	          InlineKeyboardButton('The Adventures Of Hatim', callback_data='hatim')
+	    InlineKeyboardButton('The Adventures Of Hatim', callback_data='hatim')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -362,10 +362,10 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Suryaputra Karn', callback_data='spk')
       	],[
-	          InlineKeyboardButton('Siya Ke Ram', callback_data='skr')
-	      ],[
-	          InlineKeyboardButton('Krishna Balram', callback_data='kb')
-	      ],[
+	    InlineKeyboardButton('Siya Ke Ram', callback_data='skr')
+	],[
+	    InlineKeyboardButton('Krishna Balram', callback_data='kb')
+	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -378,7 +378,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2015')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/a303009efbe2d55349a65.jpg")
@@ -423,7 +423,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Maa Shakti', callback_data='ms')
       	],[
-	          InlineKeyboardButton('Kaise Bane Mushak Ganeshji Ki Savari?', callback_data='gks')
+	    InlineKeyboardButton('Kaise Bane Mushak Ganeshji Ki Savari?', callback_data='gks')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -437,7 +437,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2017')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/7b7e60b561a16f6857275.jpg")
@@ -466,10 +466,10 @@ async def callbackss(client: Client, query: CallbackQuery):
     elif query.data == "2018":
         buttons = [[
             InlineKeyboardButton('Radhakrishn', callback_data='rk')
-	      ],[
-	          InlineKeyboardButton('Karn Sangini', callback_data='ks')
+	],[
+	    InlineKeyboardButton('Karn Sangini', callback_data='ks')
       	],[
-	          InlineKeyboardButton('Mahishasura Vadh', callback_data='msv')
+	    InlineKeyboardButton('Mahishasura Vadh', callback_data='msv')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -483,7 +483,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2018')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/c09a16c11c1884c796dbe.jpg")
@@ -527,11 +527,11 @@ async def callbackss(client: Client, query: CallbackQuery):
     elif query.data == "2019":
         buttons = [[
             InlineKeyboardButton('Jag Jaanani Maa Vaishnodevi', callback_data='jjmv')
-	      ],[
-	          InlineKeyboardButton('Shrimad Bhagwat Mahapuran', callback_data='sbm')
-	      ],[
-	          InlineKeyboardButton('Namah Lakshmi Narayan', callback_data='nln')
-	      ],[
+	],[
+	    InlineKeyboardButton('Shrimad Bhagwat Mahapuran', callback_data='sbm')
+	],[
+	    InlineKeyboardButton('Namah Lakshmi Narayan', callback_data='nln')
+	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -544,7 +544,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2019')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/4d6913668505348784ead.jpg")
@@ -588,8 +588,8 @@ async def callbackss(client: Client, query: CallbackQuery):
     elif query.data == "2020":
         buttons = [[
             InlineKeyboardButton('Deva Shree Ganesha', callback_data='dsg')
-	      ],[
-	          InlineKeyboardButton('Devi Adi Parashakti', callback_data='dap')
+	],[
+	InlineKeyboardButton('Devi Adi Parashakti', callback_data='dap')
       	],[
       	    InlineKeyboardButton('Kahat Hanuman Jaishree Ram', callback_data='khjr')
       	],[
@@ -663,7 +663,7 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2021')
         ]]
-	      await client.edit_message_media(
+	await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
                 InputMediaPhoto("https://graph.org/file/3a3956ba102dd741dc5fb.jpg")
@@ -712,8 +712,8 @@ async def callbackss(client: Client, query: CallbackQuery):
     elif query.data == "2022":
         buttons = [[
             InlineKeyboardButton('Brij Ke Gopal', callback_data='bkg')
-	      ],[
-	          InlineKeyboardButton('Dharm Yoddha Garud', callback_data='dyg')
+	],[
+	    InlineKeyboardButton('Dharm Yoddha Garud', callback_data='dyg')
       	],[
       	    InlineKeyboardButton('Parshuram', callback_data='parshuram')
       	],[
@@ -763,8 +763,8 @@ async def callbackss(client: Client, query: CallbackQuery):
     elif query.data == "2023":
         buttons = [[
             InlineKeyboardButton('Karmadhikari Shanidev', callback_data='kshanidev')
-	      ],[
-	          InlineKeyboardButton('Shiv Shakti', callback_data='ss')
+	],[
+	    InlineKeyboardButton('Shiv Shakti', callback_data='ss')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -808,10 +808,10 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Shrimad Ramayan', callback_data='s_r')
       	],[
-	          InlineKeyboardButton('Prachand Ashok', callback_data='pa')
-	      ],[
+	    InlineKeyboardButton('Prachand Ashok', callback_data='pa')
+	],[
       	    InlineKeyboardButton('Chiranjeevi Hanuman', callback_data='ch')
-      	], [
+      	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -855,4 +855,3 @@ async def callbackss(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
         )
-      
