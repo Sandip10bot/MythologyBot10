@@ -2124,17 +2124,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('2024', callback_data='2024')
                    #InlineKeyboardButton('1998', callback_data='1998')
               ]]
-        await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.SERIALS_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-        ) 
+        )
 
     elif query.data == "1988":
         buttons = [[
