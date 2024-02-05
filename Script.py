@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hey {}</b> 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot.\nHere You Can Find Many Mythology Serials ➺ /availableserial.\n\nJust Check Help Button Below."""
+    START_TXT = """<b>Hey {}</b> 👋🏻\n\nWelcome To 𝕽α∂нαкяιѕнη.\nHere You Can Find Many Mythology Serials ➺ **Use** /serials.\n\n**Just Check Help Button For More Info**!!."""
 
     ABOUT_TXT = """--> My Name : {}
    
@@ -107,8 +107,11 @@ Hᴇʟᴘ : <b>Sᴇᴛᴛɪɴɢꜱ</b>
     HELP_TXT = """ <b>Help</b>
 
 ◈ <b> Search With Proper Format !! ✨ </b>
-• <m>RadhaKrishn S01E01</m> ✅
+
+• <m>RadhaKrishn S1 E1</m> ✅
 • <m>Mahabharat S01E01</m>  ✅
+
+**More Use** /Serials
 
 <b>➙ Don't Spam in Bot !! 🚨
 
@@ -333,8 +336,8 @@ IMDb Data:
 
 # serials
 
-    SERIALS_TXT = """Serials ke list years button, when /serials used"""
-    Y_TXT = """Text after year Button"""
+    SERIALS_TXT = """**Select The Year To Get Serial !!**\n\n**For e.g Mahabharat Serial Released In 2013 You Can Select Year 2013 To Get That Serial** !! 🙆"""
+    Y_TXT = """**Here Is Available Serials In These Year** !! 📅\n\n**Click Below 👇 To Choose Serials**"""
     
     LUV_KUSH = """Luv Kush - Uttar Ramayan"""
     SHRI_KRISHNA = """Shri Krishna"""
