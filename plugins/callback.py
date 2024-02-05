@@ -241,8 +241,6 @@ async def callbackss(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2011')
         ]]
-	await client.edit_message_media(query.message.chat.id, query.message.id, InputMediaPhoto("https://graph.org/file/c8792929b6c9c51f8d53d.jpg")
-      	)
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.DKDM),
