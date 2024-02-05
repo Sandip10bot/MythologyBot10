@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>Hey {}</b> 👋🏻\n\nWelcome To 𝕽α∂нαкяιѕнη.\nHere You Can Find Many Mythology Serials ➺ **Use** /serials.\n\n**Just Check Help Button For More Info**!!."""
+    START_TXT = """<b>Hey {}</b> 👋🏻\n\nWelcome To <b>𝕽α∂нαкяιѕнη</b>.\nHere You Can Find Many <b>Mythology</b> Serials ➺ <b>Use</b> /serials.\n\n<b>Just Check Help Button For More Info</b>!!."""
 
     ABOUT_TXT = """--> My Name : {}
    
@@ -108,12 +108,12 @@ Hᴇʟᴘ : <b>Sᴇᴛᴛɪɴɢꜱ</b>
 
 ◈ <b> Search With Proper Format !! ✨ </b>
 
-• <m>RadhaKrishn S1 E1</m> ✅
-• <m>Mahabharat S01E01</m>  ✅
+• <code>RadhaKrishn S1 E1</code> ✅
+• <code>Mahabharat S01E01</code>  ✅
 
-**More Use** /Serials
+<b>More Use</b> /Serials
 
-<b>➙ Don't Spam in Bot !! 🚨
+<b>➙ Don't Spam in Bot !!</b> 🚨
 
 ~ <b>Note 📍 :</b> ᴀʟʟ ᴍᴇꜱꜱᴀɢᴇꜱ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ."""
 
@@ -336,10 +336,10 @@ IMDb Data:
 
 # serials
 
-    SERIALS_TXT = """**Select The Year To Get Serial !!**\n\n**For e.g Mahabharat Serial Released In 2013 You Can Select Year 2013 To Get That Serial** !! 🙆"""
-    Y_TXT = """**Here Is Available Serials In These Year** !! 📅\n\n**Click Below 👇 To Choose Serials**"""
+    SERIALS_TXT = """<b>Select The Year To Get Serial !!</b>\n\n<b>For e.g Mahabharat Serial Released In 2013 You Can Select Year 2013 To Get That Serial</b> !! 🙆"""
+    Y_TXT = """<b>Here Is Available Serials In These Year</b> !! 📅\n\n<b>Click Below 👇 To Choose Serials</b>"""
     
-    LUV_KUSH = """Luv Kush - Uttar Ramayan"""
+    LUV_KUSH = """<b>Uttar Ramayan</b> - Luv Kush Leela\n\n<b>Total Episode :</b> <code>39</code>\n\n<b>About :</b>Luv and Kush, the sons of Lord Rama and Sita, support their mother during her exile from Ayodhya. When they visit Ayodhya, a shocking truth is revealed to them.\n\n<b>How To Search Episode ⁉️</b>\n<code>Luv Kush S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
     SHRI_KRISHNA = """Shri Krishna"""
     JAI_HANUMAN = """Jai Hanuman"""
     MAHABHARAT_OLD = """Mahabharat Old wala"""
