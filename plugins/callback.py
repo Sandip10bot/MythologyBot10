@@ -496,11 +496,8 @@ async def callbackss(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Back', callback_data='2020')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-	await query.message.edit_text(
-                text=(script.DEV_ADI_PARASHAKTI),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-	)
+	await query.message.edit_text(text=(script.DEV_ADI_PARASHAKTI), reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
+    
     elif query.data == "khjr":
         buttons = [[
             InlineKeyboardButton('Back', callback_data='2020')
