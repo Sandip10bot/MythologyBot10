@@ -53,7 +53,8 @@ async def give_filter(client, message):
     k = await manual_filters(client, message)
     if k == False:
         await auto_filter(client, message)
-        
+
+"""
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
     content = message.text
@@ -69,7 +70,7 @@ async def pm_text(bot, message):
         chat_id=LOG_CHANNEL,
         text=f"<b>#PM_MSG_LOGS\n\nNᴀᴍᴇ : `{user}`\n\nID : `{user_id}`\n\nMᴇssᴀɢᴇ : `{content}`</b>"
     )
-
+"""
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
