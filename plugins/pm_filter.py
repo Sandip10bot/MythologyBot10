@@ -1662,16 +1662,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('✪ Bot Status ✪', callback_data='stats')
         ], [
-            InlineKeyboardButton('• Filters •', callback_data='filters'),
-            InlineKeyboardButton('• File Store •', callback_data='store_file')
-        ], [
-            InlineKeyboardButton('📸  Telegraph  📸', callback_data='tele'),
-            InlineKeyboardButton('• Connection •️', callback_data='coct')
-        ], [
+	    InlineKeyboardButton('• Settings •', callback_data='settings'),
+            InlineKeyboardButton('• Extra •', callback_data='xtra'),
+	],[
             InlineKeyboardButton('Back', callback_data='start'),
             InlineKeyboardButton('Next', callback_data='nhelp')
         ]]
-        
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1684,15 +1680,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
 
-    elif query.data == "nhelp":
+    elif query.data == "xtra":
         buttons = [[
-            InlineKeyboardButton('• Extra Mods •', callback_data='extra'),
+            InlineKeyboardButton('• Miscs •', callback_data='extra'),
             InlineKeyboardButton('🆎 Fonts 🆎', callback_data='font')
         ], [
-            InlineKeyboardButton('• Sticker •', callback_data='sticker'),
-            InlineKeyboardButton('• Settings •', callback_data='settings')
-        ], [
-        
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         
@@ -1845,11 +1837,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer')
+            InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
         ], [
-           # InlineKeyboardButton('𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘', callback_data='source')
-            InlineKeyboardButton('🔥 Update', url='https://t.me/Radhakriishn')
-        ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -2245,6 +2234,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
 	]]
+	reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/d3553fb949c9cfab3fb50.jpg")
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
                 text=(script.Y_TXT),
