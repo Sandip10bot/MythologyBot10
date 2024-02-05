@@ -1,34 +1,7 @@
-
-import asyncio
-from asyncio import sleep
-from pyrogram import Client, filters, enums
-from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
-from pyrogram.errors import FloodWait, UserNotParticipant
+    
+from pyrogram import Client, filters
 from pyrogram.enums import MessageMediaType
-import humanize
-from info import *
-
-
-@Client.on_message(filters.private & (filters.document | filters.audio | filters.video) & filters.user(ADMINS))
-async def rename_start(client, message):
-    file = getattr(message, message.media.value)
-    filename = file.file_name
-    filesize = humanize.naturalsize(file.file_size) 
-    fileid = file.file_id
-    try:
-        text = f"""**What do you to do with this file?**\n\n**File Name** : `{filename}`\n\n**File Size** : `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("Start Rename", callback_data="rename") ],
-                   [ InlineKeyboardButton("Cancel", callback_data="close_data") ]]
-        await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
-        await sleep(FLOOD)
-    except FloodWait as e:
-        await sleep(e.value)
-        text = f"""**What do you to do with this file?**\n\n**File Name** : `{filename}`\n\n**File Size** : `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("Start Rename", callback_data="rename") ],
-                   [ InlineKeyboardButton("Cancel", callback_data="close_data") ]]
-        await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
-    except:
-        pass
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
 
 
 @Client.on_message(filters.private & filters.reply)
