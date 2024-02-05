@@ -1,20 +1,6 @@
 class script(object):
     START_TXT = """<b>Hey {}</b> 👋🏻\n\nWelcome to Premium Mythology 🎭 Serials Provider Bot.\nHere You Can Find Many Mythology Serials ➺ /availableserial.\n\nJust Check Help Button Below."""
 
-    HEP_TXT = """𝐇𝐞𝐥𝐩 ❓
-• Buy /plans And Enjoy all /availableserial
-
-• 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 ?
---> <a href='https://t.me/MythoSerial/157'>Watch this Video.</a>
-
-• 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ?
---> <a href='https://t.me/MythoSerial'>Join Now.</a>
-
-• You can also request what you want In Group.
-
-𝐓𝐡𝐚𝐧𝐤𝐬 𝐔𝐬𝐢𝐧𝐠 𝐌𝐞  ❤️
-"""
- 
     ABOUT_TXT = """--> My Name : {}
    
 • <b>Devoloped By</b> : @MythoSerial ❤️
@@ -210,9 +196,7 @@ Nᴀᴍᴇ - {}</b>"""
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
 ʀᴇǫᴜᴇꜱᴛ ʏᴏᴜʀ'ꜱ...</b>"""
 
-    OLD_ALRT_TXT = """<b>ʜᴇʏ {},
-ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
-ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇǫᴜᴇꜱᴛ ᴀɢᴀɪɴ.</b>"""
+    OLD_ALRT_TXT = """<b>Search Again!</b>"""
 
     CUDNT_FND = """<b>ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?</b>"""
@@ -227,15 +211,11 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
     I_CUD_NT = """<b>ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...</b>"""
 
-    MVE_NT_FND = """<b>ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...</b>"""
+    MVE_NT_FND = """<b>Not available!</b>"""
 
-    TOP_ALRT_MSG = """<b>Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...</b>"""
+    TOP_ALRT_MSG = """<b>Cʜᴇᴄᴋɪɴɢ Iɴ Dᴀᴛᴀʙᴀsᴇ...</b>"""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️
-
-➻ ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜱᴇᴀʀᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ ʙʏ ᴊᴜꜱᴛ ᴛʏᴘɪɴɢ ɪᴛ'ꜱ ɴᴀᴍᴇ. 
-
-⚠️ ɪꜰ ʏᴏᴜ ᴀʀᴇ ʜᴀᴠɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴏʀ ꜱᴏᴍᴇᴛʜɪɴɢ ᴇʟꜱᴇ ᴛʜᴇɴ ᴍᴇꜱꜱᴀɢᴇ ʜᴇʀᴇ 👇</b>"""
+    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
     
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
