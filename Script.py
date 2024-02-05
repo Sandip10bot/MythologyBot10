@@ -340,8 +340,8 @@ IMDb Data:
     Y_TXT = """<b>Here Is Available Serials In These Year</b> !! 📅\n\n<b>Click Below 👇 To Choose Serials</b>"""
     
     LUV_KUSH = """<b>Uttar Ramayan</b> - Luv Kush Leela\n\n<b>Total Episode :</b> <code>39</code>\n\n<b>About :</b>Luv and Kush, the sons of Lord Rama and Sita, support their mother during her exile from Ayodhya. When they visit Ayodhya, a shocking truth is revealed to them.\n\n<b>How To Search Episode ⁉️</b>\n<code>Luv Kush S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    SHRI_KRISHNA = """Shri Krishna"""
-    JAI_HANUMAN = """Jai Hanuman"""
+    SHRI_KRISHNA = """<b>Shri Krishna</b>\n\n<b>Total Episode :</b> <code>221</code>\n\n<b>About :</b> When evil takes over the world, Lord Vishnu incarnates into the world as Shri Krishna for the protection of the righteous and the destruction of the wicked.\n\n<b>How To Search Episode ⁉️</b>\n<code>Shri Krishna S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!""" 
+    JAI_HANUMAN = """<b>Jai Hanuman</b>\n\n<b>Total Episode :</b> <code>89</code>\n\n<b>About :</b> Jai Hanuman - Sankat Mochan Naam Tiharo is an Indian television mythology drama series that premiered from 23 August 2022 on Dangal TV. Produced by Alind Srivastava and Nissar Parvez under Peninsula Pictures, it stars Akshay Dogra, Madirakshi Mundle, Amar Upadhyay and Apara Mehta\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
     MAHABHARAT_OLD = """Mahabharat Old wala"""
     JAI_MAHALAKSHMI = """Jai Mahalakshmi"""
     SHIV_MAHAPURAN = """Shiv Mahapuran"""
