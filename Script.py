@@ -351,7 +351,9 @@ IMDb Data:
     Y_TXT = """<b>Here Is Available Serials In These Year</b> !!📅\n\n<b>Click Below 👇 To Choose Serials</b>"""
     
     LUV_KUSH = """<b>Uttar Ramayan</b> - Luv Kush Leela ✨
+    
 <b>Total Episode :</b> <code>39</code>
+
 <b>About :</b> Luv and Kush, the sons of Lord Rama and Sita, support their mother during her exile from Ayodhya. When they visit Ayodhya, a shocking truth is revealed to them.
 
 <b>How To Search Episode ⁉️</b>
@@ -361,7 +363,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     SHRI_KRISHNA = """<b>Shri Krishna</b> ✨
+    
 <b>Total Episode :</b> <code>221</code>
+
 <b>About :</b> When evil takes over the world, Lord Vishnu incarnates into the world as Shri Krishna for the protection of the righteous and the destruction of the wicked.
 
 <b>How To Search Episode ⁉️</b>
@@ -371,7 +375,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     JAI_HANUMAN = """<b>Jai Hanuman</b> ✨
+    
 <b>Total Episode :</b> <code>89</code>
+
 <b>About :</b> Jai Hanuman - Sankat Mochan Naam Tiharo is an Indian television mythology drama series that premiered from 23 August 2022 on Dangal TV. Produced by Alind Srivastava and Nissar Parvez under Peninsula Pictures, it stars Akshay Dogra, Madirakshi Mundle, Amar Upadhyay and Apara Mehta.
 
 <b>How To Search Episode ⁉️</b>
@@ -381,7 +387,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     MAHABHARAT_OLD = """<b>Mahabharat (1998)</b> ✨
+    
 <b>Total Episode :</b> <code>94</code>
+
 <b>About :</b> When differences between the Kaurava and the Pandava clans, who belong to the same family line, lead them to the threshold of war, Lord Krishna decides to step in and take control of the situation.
 
 <b>How To Search Episode ⁉️</b>
@@ -391,7 +399,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     JAI_MAHALAKSHMI = """<b>Jai Mahalakshmi</b> ✨
+    
 <b>Total Episode :</b> <code>56</code>
+
 <b>About :</b> Goddess Lakshmi is the supreme goddess of wealth and prosperity, Devi Durga took the intense form of Mahalakshmi to protect the world when Lakshmi disappeared preceding Samudra Manthan.
 
 <b>How To Search Episode ⁉️</b>
@@ -401,7 +411,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     JAI_MAHALAKSHMI = """<b>Shiv Mahapuran</b> ✨
+    
 <b>Total Episode :</b> <code>61</code>
+
 <b>About :</b> The story of Indian God Shiv. It includes various stories of demons and Gods involved in Hindu Mythology.
 
 <b>How To Search Episode ⁉️</b>
@@ -411,7 +423,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     MEERA = """<b>Meera 2008</b> ✨
+    
 <b>Total Episode :</b> <code>134</code>
+
 <b>About :</b> Meera, a young Rajput princess, is overcome with love and devotion to Lord Krishna and sacrifices everything in her life to become a saint and poet.
 
 <b>How To Search Episode ⁉️</b>
@@ -421,7 +435,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     LITTLE_KRISHNA = """<b>Little Krishna</b> ✨
+    
 <b>Total Episode :</b> <code>13</code>
+
 <b>About :</b> Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.
 
 <b>How To Search Episode ⁉️</b>
@@ -431,7 +447,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     DWARKADHEESH = """<b>Dwarkadheesh</b> ✨
+    
 <b>Total Episode :</b> <code>204</code>
+
 <b>About :</b> After becoming the king of Dwarka, Lord Krishna becomes a protector and maintains relationships with his family members and loved ones.
 
 <b>How To Search Episode ⁉️</b>
@@ -441,37 +459,45 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     DKDM = """<b>Devon Ke Dev Mahadev</b> ✨
+    
 <b>Total Episode :</b> <code>820</code>
-<b>About :</b> 
+
+<b>About :</b> Lord Shiva, an ascetic, and his divine consort, Goddess Shakti, create the universe. However, they separate for the sake of it and are reunited when she is reincarnated as Goddess Parvati.
 
 <b>How To Search Episode ⁉️</b>
-<code>Here</code>
+<code>Devon ke Dev Mahadev S01E01</code>
 
 ~ just copy the above and paste it below. ~ 
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     DKDM = """<b>Buddha</b> ✨
+    
 <b>Total Episode :</b> <code>55</code>
-<b>About :</b> 
+
+<b>About :</b> Prince Siddhartha's father shelters him from witnessing the sufferings of life. However, being curious by nature, he comes across the various stages of suffering and sets out to attain enlightenment.
 
 <b>How To Search Episode ⁉️</b>
-<code>Here</code>
+<code>Buddha S01 E01</code>
 
 ~ just copy the above and paste it below. ~ 
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     MAHABHARAT_NEW = """<b>MahaBharat (2013)</b> ✨
+    
 <b>Total Episode :</b> <code>267</code>
-<b>About :</b> 
+
+<b>About :</b> The mother of all wars, the epitome of all rivalries, the cauldron of emotions, insecurities, jealousies, and power play - Mahabharat!
 
 <b>How To Search Episode ⁉️</b>
-<code>Here</code>
+<code>Mahabharat S01E01 HS</code>
 
 ~ just copy the above and paste it below. ~ 
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     HATIM = """<b>The Adventures Of Hatim</b> ✨
+    
 <b>Total Episode :</b> <code>68</code>
+
 <b>About :</b> 
 
 <b>How To Search Episode ⁉️</b>
@@ -481,7 +507,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     SURYAPUTRA_KARN = """<b>Suryaputra Karn</b> ✨
+    
 <b>Total Episode :</b> <code>307</code>
+
 <b>About :</b> 
 
 <b>How To Search Episode ⁉️</b>
@@ -491,7 +519,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     SURYAPUTRA_KARN = """<b>Siya Ke Ram</b> ✨
+    
 <b>Total Episode :</b> <code>304</code>
+
 <b>About :</b> 
 
 <b>How To Search Episode ⁉️</b>
@@ -501,7 +531,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     KRISHNA_BALRAM = """<b>Krishna Balram</b> ✨
+    
 <b>Total Episode :</b> <code>65</code>
+
 <b>About :</b> 
 
 <b>How To Search Episode ⁉️</b>
@@ -511,7 +543,9 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     MAA_SHAKTI = """<b>Maa Shakti</b> ✨
+    
 <b>Total Episode :</b> <code>78</code>
+
 <b>About :</b> 
 
 <b>How To Search Episode ⁉️</b>
