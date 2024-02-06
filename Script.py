@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """<b>Hey {}</b> 👋🏻
     
-    Welcome To <b>𝕽α∂нαкяιѕнη</b> 😇
-    Here You Can Find Many <b>Mythology</b> Serials.
+Welcome To <b>𝕽α∂нαкяιѕнη</b> 😇
+Here You Can Find Many <b>Mythology</b> Serials.
     
-    ➺ <b>Use</b>: /serials. •
+➺ <b>Use</b>: /serials. •
     
-    <b>👇 Check Help Button For More Info</b>!!.
+<b>👇 Check Help Button For More Info</b>!!.
     """
 
     ABOUT_TXT = """--> My Name : {}
