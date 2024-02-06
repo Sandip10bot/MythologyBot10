@@ -2145,8 +2145,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 text=(script.Y_TXT),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
-        )  
+        )
     elif query.data == "lk":
+        buttons = [[
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='1988')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/d3553fb949c9cfab3fb50.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.LUV_KUSH,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "lkkk":
         buttons = [[
             InlineKeyboardButton('Back', callback_data='1988')
 	]]
