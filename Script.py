@@ -1,10 +1,21 @@
 class script(object):
-    START_TXT = """<b>Hey {}</b> 👋🏻\n\nWelcome To <b>𝕽α∂нαкяιѕнη</b>.\nHere You Can Find Many <b>Mythology</b> Serials ➺ <b>Use</b> /serials.\n\n<b>Just Check Help Button For More Info</b>!!."""
+    START_TXT = """<b>Hey {}</b> 👋🏻
+    
+    Welcome To <b>𝕽α∂нαкяιѕнη</b> 😇
+    Here You Can Find Many <b>Mythology</b> Serials.
+    
+    ➺ <b>Use</b>: /serials. •
+    
+    <b>👇 Check Help Button For More Info</b>!!.
+    """
 
     ABOUT_TXT = """--> My Name : {}
    
-• <b>Devoloped By</b> : @MythoSerial ❤️
-This bot can Provide You Many Mythology show on your request.\n\nThank You 😇.
+• <b>Devoloped By</b> : @Sandip10x ❤️
+This bot can Provide You Many Mythology show on your request.
+
+• <b>Join Update Channel:</b> (t.me/Radhakriishn) ✨
+Thank You 😇.
 """
                   
     DISCLAIMER_TXT =  """<b>ᴛʜɪꜱ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
@@ -59,7 +70,7 @@ Hᴇʟᴘ : <b>Sᴇᴛᴛɪɴɢꜱ</b>
 
 <b>Nᴏᴛᴇ</b>: ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴍᴏᴅᴇ ᴛᴏ ᴄʜᴀɴɢᴇ ʏᴏᴜʀ ꜰᴏɴᴛꜱ ꜱᴛʏʟᴇ, ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ʟɪᴋᴇ ᴛʜɪꜱ ꜰᴏʀᴍᴀᴛ. 
 
-<code>/font TG_LINKS_CHANNEL</code>"""
+<code>/font Text</code>"""
 
     MANUELFILTER_TXT = """Hᴇʟᴘ : <b>Fɪʟᴛᴇʀꜱ</b>
     
@@ -104,18 +115,19 @@ Hᴇʟᴘ : <b>Sᴇᴛᴛɪɴɢꜱ</b>
 𝟹. Usᴇ /settings ᴏɴ ʙᴏᴛ's ᴘᴍ ᴀɴᴅ ᴛᴜʀɴ ᴏɴ AᴜᴛᴏFɪʟᴛᴇʀ ᴏɴ ᴛʜᴇ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ."""
 
     
-    HELP_TXT = """ <b>Help</b>
+    HELP_TXT = """<b><u>Help Message</u></b>
 
-◈ <b> Search With Proper Format !! ✨ </b>
+◈ <b>Search With Proper Format !! ✨</b>
 
 • <code>RadhaKrishn S1 E1</code> ✅
-• <code>Mahabharat S01E01</code>  ✅
+• <code>Mahabharat S01E01</code> ✅
+• 
 
-<b>More Use</b> /Serials
+<b>See List of All Serials:</b> /serials
 
-<b>➙ Don't Spam in Bot !!</b> 🚨
+<b>➙ Please Don't Spam in Bot !!</b> 🚨
 
-~ <b>Note 📍 :</b> ᴀʟʟ ᴍᴇꜱꜱᴀɢᴇꜱ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇᴅ ᴀꜰᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇꜱ ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪꜱꜱᴜᴇꜱ."""
+~ <b><u>Note</u> 📍:</b> All Files will delete after 10 minutes to avoid copyright issues."""
 
     CONNECTION_TXT = """Hᴇʟᴘ : <b>Cᴏɴɴᴇᴄᴛɪᴏɴꜱ</b>
     
@@ -243,7 +255,6 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 ★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 
 𝗜𝗗 <b>: {}</b>
-
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>🥲"""
@@ -337,47 +348,398 @@ IMDb Data:
 # serials
 
     SERIALS_TXT = """<b>Select The Year To Get Serial !!</b>\n\n<b>For e.g Mahabharat Serial Released In 2013 You Can Select Year 2013 To Get That Serial</b> !! 🙆"""
-    Y_TXT = """<b>Here Is Available Serials In These Year</b> !! 📅\n\n<b>Click Below 👇 To Choose Serials</b>"""
+    Y_TXT = """<b>Here Is Available Serials In These Year</b> !!📅\n\n<b>Click Below 👇 To Choose Serials</b>"""
     
-    LUV_KUSH = """<b>Uttar Ramayan</b> - Luv Kush Leela\n\n<b>Total Episode :</b> <code>39</code>\n\n<b>About :</b>Luv and Kush, the sons of Lord Rama and Sita, support their mother during her exile from Ayodhya. When they visit Ayodhya, a shocking truth is revealed to them.\n\n<b>How To Search Episode ⁉️</b>\n<code>Luv Kush S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    SHRI_KRISHNA = """<b>Shri Krishna</b>\n\n<b>Total Episode :</b> <code>221</code>\n\n<b>About :</b> When evil takes over the world, Lord Vishnu incarnates into the world as Shri Krishna for the protection of the righteous and the destruction of the wicked.\n\n<b>How To Search Episode ⁉️</b>\n<code>Shri Krishna S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!""" 
-    JAI_HANUMAN = """<b>Jai Hanuman</b>\n\n<b>Total Episode :</b> <code>89</code>\n\n<b>About :</b> Jai Hanuman - Sankat Mochan Naam Tiharo is an Indian television mythology drama series that premiered from 23 August 2022 on Dangal TV. Produced by Alind Srivastava and Nissar Parvez under Peninsula Pictures, it stars Akshay Dogra, Madirakshi Mundle, Amar Upadhyay and Apara Mehta\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    MAHABHARAT_OLD = """"<b>Mahabharat (1998)</b>\n\n<b>Total Episode :</b> <code>94</code>\n\n<b>About :</b> When differences between the Kaurava and the Pandava clans, who belong to the same family line, lead them to the threshold of war, Lord Krishna decides to step in and take control of the situation.\n\n<b>How To Search Episode ⁉️</b>\n<code>Mahabharat 1988 S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    JAI_MAHALAKSHMI = """<b>Jai Mahalakshmi</b>\n\n<b>Total Episode :</b> <code>56</code>\n\n<b>About :</b> Goddess Lakshmi is the supreme goddess of wealth and prosperity, Devi Durga took the intense form of Mahalakshmi to protect the world when Lakshmi disappeared preceding Samudra Manthan.\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Mahalakshmi S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    SHIV_MAHAPURAN = """<b>Shiv Mahapuran</b>\n\n<b>Total Episode :</b> <code>61</code>\n\n<b>About :</b> The story of Indian God Shiv. It includes various stories of demons and Gods involved in Hindu Mythology.\n\n<b>How To Search Episode ⁉️</b>\n<code>Shiv Mahapuran S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    MEERA = """<b>Meera 2008</b>\n\n<b>Total Episode :</b> <code>134</code>\n\n<b>About :</b> Meera, a young Rajput princess, is overcome with love and devotion to Lord Krishna and sacrifices everything in her life to become a saint and poet.\n\n<b>How To Search Episode ⁉️</b>\n<code>Meera S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    LITTLE_KRISHNA = """<b>Little Krishna</b>\n\n<b>Total Episode :</b> <code>13</code>\n\n<b>About :</b> Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.\n\n<b>How To Search Episode ⁉️</b>\n<code>Little Krishna S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    DWARKADHEESH = """<b>Dwarkadheesh</b>\n\n<b>Total Episode :</b> <code>204</code>\n\n<b>About :</b> After becoming the king of Dwarka, Lord Krishna becomes a protector and maintains relationships with his family members and loved ones.\n\n<b>How To Search Episode ⁉️</b>\n<code>Dwarkadheesh S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    DKDM = """<b>Devon Ke Dev Mahadev</b>\n\n<b>Total Episode :</b> <code>820</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    BUDDHA = """<b>Buddha</b>\n\n<b>Total Episode :</b> <code>55</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    MAHABHARAT_NEW = """<b>MahaBharat (2013)</b>\n\n<b>Total Episode :</b> <code>267</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    HATIM = """<b>The Adventures Of Hatim</b>\n\n<b>Total Episode :</b> <code>68</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    SURYAPUTRA_KARN = """<b>Suryaputra Karn</b>\n\n<b>Total Episode :</b> <code>307</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    SIYA_KE_RAM = """<b>Siya Ke Ram</b>\n\n<b>Total Episode :</b> <code>304</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    KRISHNA_BALRAM = """<b>Krishna Balram</b>\n\n<b>Total Episode :</b> <code>65</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    MAA_SHAKTI = """<b>Maa Shakti</b>\n\n<b>Total Episode :</b> <code>78</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    KBM_GANESH_KI_SAVARI = """<b>Kaise Bane Mushak Ganeshji Ki Savari?</b>\n\n<b>Total Episode :</b> <code>8</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    RADHAKRISHN = """<b>Radhakrishn</b>\n\n<b>Total Episode :</b> <code>1145</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    KARN_SANGINI = """<b>Karn Sangini</b>\n\n<b>Total Episode :</b> <code>90</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    M_VADH = """<b>Mahishasura Vadh</b>\n\n<b>Total Episode :</b> <code>10</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    SB_MAHAPURAN = """<b>Shiv Mahapuran</b>\n\n<b>Total Episode :</b> <code>61</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    JJMV = """<b>Jag Jaanani Maa Vaishnodevi</b>\n\n<b>Total Episode :</b> <code>207</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    NAMAH = """<b>Namah Lakshmi Narayan</b>\n\n<b>Total Episode :</b> <code>65</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    DEVA_SHREE_GANESHA = """<b>Deva Shree Ganesha</b>\n\n<b>Total Episode :</b> <code>11</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    DEV_ADI_PARASHAKTI = """<b>Devi Adi Parashakti</b>\n\n<b>Total Episode :</b> <code>87</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    KAHAT_HANUMAN_JSRAM = """<b>Kahat Hanuman Jaishree Ram</b>\n\n<b>Total Episode :</b> <code>120</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    BAAL_SHIV = """<b>Baal Shiv</b>\n\n<b>Total Episode :</b> <code>215</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    JKLK = """<b>Jai Kanhaiya Lal Ki</b>\n\n<b>Total Episode :</b> <code>185</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    KASHIBAI = """<b>Kashibai</b>\n\n<b>Total Episode :</b> <code>201</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    THE_LEGEND_OF_HANUMAN = """<b>The Legend of Hanuman</b>\n\n<b>Total Episode :</b> <code>32</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    BRIJ_KE_GOPAL = """<b>Brij Ke Gopal</b>\n\n<b>Total Episode :</b> <code>48</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    GARUD = """<b>Dharm Yoddha Garud</b>\n\n<b>Total Episode :</b> <code>234</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    PARSHURAM = """<b>Parshuram</b>\n\n<b>Total Episode :</b> <code>160</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    K_SHANIDEV = """<b>Karmadhikari Shanidev</b>\n\n<b>Total Episode :</b> <code>39</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    SHIV_SHAKTI = """<b>Shiv Shakti</b>\n\n<b>Total Episode :</b> <code>Running...</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    SHRIMAD_RAMAYAN = """<b>Shrimad Ramayan</b>\n\n<b>Total Episode :</b> <code>Running...</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    C_HANUMAN = """<b>Chiranjeevi Hanuman</b>\n\n<b>Total Episode :</b> <code>Coming Soon..</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
-    P_ASHOK = """<b>Prachand Ashok</b>\n\n<b>Total Episode :</b> <code>Running...</code>\n\n<b>About :</b> paste\n\n<b>How To Search Episode ⁉️</b>\n<code>Jai Hanuman S01E01</code>\n\n<b>Uploaded By</b> : @Radhekrishn_bot !!"""
+    LUV_KUSH = """<b>Uttar Ramayan</b> - Luv Kush Leela ✨
+<b>Total Episode :</b> <code>39</code>
+<b>About :</b> Luv and Kush, the sons of Lord Rama and Sita, support their mother during her exile from Ayodhya. When they visit Ayodhya, a shocking truth is revealed to them.
+
+<b>How To Search Episode ⁉️</b>
+<code>Luv Kush S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SHRI_KRISHNA = """<b>Shri Krishna</b> ✨
+<b>Total Episode :</b> <code>221</code>
+<b>About :</b> When evil takes over the world, Lord Vishnu incarnates into the world as Shri Krishna for the protection of the righteous and the destruction of the wicked.
+
+<b>How To Search Episode ⁉️</b>
+<code>Shri Krishna S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JAI_HANUMAN = """<b>Jai Hanuman</b> ✨
+<b>Total Episode :</b> <code>89</code>
+<b>About :</b> Jai Hanuman - Sankat Mochan Naam Tiharo is an Indian television mythology drama series that premiered from 23 August 2022 on Dangal TV. Produced by Alind Srivastava and Nissar Parvez under Peninsula Pictures, it stars Akshay Dogra, Madirakshi Mundle, Amar Upadhyay and Apara Mehta.
+
+<b>How To Search Episode ⁉️</b>
+<code>Jai Hanuman S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    MAHABHARAT_OLD = """<b>Mahabharat (1998)</b> ✨
+<b>Total Episode :</b> <code>94</code>
+<b>About :</b> When differences between the Kaurava and the Pandava clans, who belong to the same family line, lead them to the threshold of war, Lord Krishna decides to step in and take control of the situation.
+
+<b>How To Search Episode ⁉️</b>
+<code>Mahabharat 1988 S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JAI_MAHALAKSHMI = """<b>Jai Mahalakshmi</b> ✨
+<b>Total Episode :</b> <code>56</code>
+<b>About :</b> Goddess Lakshmi is the supreme goddess of wealth and prosperity, Devi Durga took the intense form of Mahalakshmi to protect the world when Lakshmi disappeared preceding Samudra Manthan.
+
+<b>How To Search Episode ⁉️</b>
+<code>Jai Mahalakshmi S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JAI_MAHALAKSHMI = """<b>Shiv Mahapuran</b> ✨
+<b>Total Episode :</b> <code>61</code>
+<b>About :</b> The story of Indian God Shiv. It includes various stories of demons and Gods involved in Hindu Mythology.
+
+<b>How To Search Episode ⁉️</b>
+<code>Shiv Mahapuran S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    MEERA = """<b>Meera 2008</b> ✨
+<b>Total Episode :</b> <code>134</code>
+<b>About :</b> Meera, a young Rajput princess, is overcome with love and devotion to Lord Krishna and sacrifices everything in her life to become a saint and poet.
+
+<b>How To Search Episode ⁉️</b>
+<code>Meera S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    LITTLE_KRISHNA = """<b>Little Krishna</b> ✨
+<b>Total Episode :</b> <code>13</code>
+<b>About :</b> Little Krishna, a mischievous child, lives in the village of Vrindavan. He decides to save the villagers from an evil king, Kamsa, who sends ferocious demons upon them.
+
+<b>How To Search Episode ⁉️</b>
+<code>Little Krishna S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DWARKADHEESH = """<b>Dwarkadheesh</b> ✨
+<b>Total Episode :</b> <code>204</code>
+<b>About :</b> After becoming the king of Dwarka, Lord Krishna becomes a protector and maintains relationships with his family members and loved ones.
+
+<b>How To Search Episode ⁉️</b>
+<code>Dwarkadheesh S01E01</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DKDM = """<b>Devon Ke Dev Mahadev</b> ✨
+<b>Total Episode :</b> <code>820</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DKDM = """<b>Buddha</b> ✨
+<b>Total Episode :</b> <code>55</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    MAHABHARAT_NEW = """<b>MahaBharat (2013)</b> ✨
+<b>Total Episode :</b> <code>267</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    HATIM = """<b>The Adventures Of Hatim</b> ✨
+<b>Total Episode :</b> <code>68</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SURYAPUTRA_KARN = """<b>Suryaputra Karn</b> ✨
+<b>Total Episode :</b> <code>307</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SURYAPUTRA_KARN = """<b>Siya Ke Ram</b> ✨
+<b>Total Episode :</b> <code>304</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KRISHNA_BALRAM = """<b>Krishna Balram</b> ✨
+<b>Total Episode :</b> <code>65</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    MAA_SHAKTI = """<b>Maa Shakti</b> ✨
+<b>Total Episode :</b> <code>78</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KBM_GANESH_KI_SAVARI = """<b>Kaise Bane Mushak Ganeshji Ki Savari?</b> ✨
+<b>Total Episode :</b> <code>08</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    RADHAKRISHN = """<b>Radhakrishn (2018)</b> ✨
+<b>Total Episode :</b> <code>1145</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KARN_SANGINI = """<b>Karn Sangini</b> ✨
+<b>Total Episode :</b> <code>90</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    M_VADH = """<b>Mahishasura Vadh</b> ✨
+<b>Total Episode :</b> <code>10</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SB_MAHAPURAN = """<b>Shrimad Bhagwat Mahapuran</b> ✨
+<b>Total Episode :</b> <code>00</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JJMV = """<b>Jag Jaanani Maa Vaishnodevi</b> ✨
+<b>Total Episode :</b> <code>207</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    NAMAH = """<b>Namah Lakshmi Narayan</b> ✨
+<b>Total Episode :</b> <code>65</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DEVA_SHREE_GANESHA = """<b>Deva Shree Ganesha</b> ✨
+<b>Total Episode :</b> <code>11</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    DEV_ADI_PARASHAKTI = """<b>Devi Adi Parashakti</b> ✨
+<b>Total Episode :</b> <code>87</code>
+<b>About :</b> 
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KAHAT_HANUMAN_JSRAM = """<b>Kahat Hanuman Jaishree Ram</b> ✨
+<b>Total Episode :</b> <code>120</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    BAAL_SHIV = """<b>Baal Shiv</b> ✨
+<b>Total Episode :</b> <code>215</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    JKLK = """<b>Jai Kanhaiya Lal Ki</b> ✨
+<b>Total Episode :</b> <code>185</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    KASHIBAI = """<b>Kashibai</b> ✨
+<b>Total Episode :</b> <code>201</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    THE_LEGEND_OF_HANUMAN = """<b>The Legend of Hanuman</b> ✨
+<b>Total Episode :</b> <code>32</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    BRIJ_KE_GOPAL = """<b>Brij Ke Gopal</b> ✨
+<b>Total Episode :</b> <code>48</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    GARUD = """<b>Dharm Yoddha Garud</b> ✨
+<b>Total Episode :</b> <code>234</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    PARSHURAM = """<b>Parshuram</b> ✨
+<b>Total Episode :</b> <code>160</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    K_SHANIDEV = """<b>Karmadhikari Shanidev</b> ✨
+<b>Total Episode :</b> <code>39</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SHIV_SHAKTI = """<b>Shiv Shakti</b> ✨
+<b>Total Episode :</b> <code>Running...</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    SHRIMAD_RAMAYAN = """<b>Shrimad Ramayan</b> ✨
+<b>Total Episode :</b> <code>Running...</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    P_ASHOK = """<b>Prachand Ashok</b> ✨
+<b>Total Episode :</b> <code>Running...</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
+    C_HANUMAN = """<b>Chiranjeevi Hanuman</b> ✨
+<b>Total Episode :</b> <code>Coming Soon...</code>
+<b>About</b> :
+
+<b>How To Search Episode ⁉️</b>
+<code>Here</code>
+
+~ just copy the above and paste it below. ~ 
+<b>Uploaded By</b> : @Radhekrishn_bot !!
+"""
     LOGO = """
  ____  ___    ____   __  ____  ____ 
 (_  _)/ __)  (  _ \ /  \(_  _)(__  )
