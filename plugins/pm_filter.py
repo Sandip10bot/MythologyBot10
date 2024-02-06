@@ -36,7 +36,7 @@ from database.gfilters_mdb import (
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 #from helper.helper_func import *
-from plugins.Rename.utils import *
+#from plugins.Rename.utils import *
 import humanize
 from PIL import Image
 from PIL import Image
@@ -53,6 +53,7 @@ BUTTONS1 = {}
 BUTTONS2 = {}
 SPELL_CHECK = {}
 
+"""
 @Client.on_callback_query(filters.regex('rename'))
 async def rename(bot,update):
 	user_id = update.message.chat.id
@@ -145,7 +146,7 @@ async def doc(bot, update):
     await ms.delete() 
     os.remove(file_path) 
     if ph_path: os.remove(ph_path) 
-
+"""
 @Client.on_message(filters.text & filters.incoming)
 async def give_filter(client, message):
     k = await manual_filters(client, message)
