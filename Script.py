@@ -498,7 +498,7 @@ IMDb Data:
     
 <b>Total Episode :</b> <code>68</code>
 
-<b>About :</b> 
+<b>About :</b> Hatim, the Prince of Yemen, lives a graceful life. However, things change when he has to solve the seven riddles to defeat the wicked sorcerer Zargam.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -510,7 +510,7 @@ IMDb Data:
     
 <b>Total Episode :</b> <code>307</code>
 
-<b>About :</b> 
+<b>About :</b> Karna, son of Surya and Kunti and the doyen of archers, endures a challenging journey on his way to becoming one of the greatest warriors of the Mahabharata.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -522,7 +522,7 @@ IMDb Data:
     
 <b>Total Episode :</b> <code>304</code>
 
-<b>About :</b> 
+<b>About :</b> After their marriage, Rama and Shinta must go into exile because Queen Kaikeyi wants her son Bharata to assume the throne. Their relationship is tested again when Shinta is kidnapped by Rahwana.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -534,7 +534,7 @@ IMDb Data:
     
 <b>Total Episode :</b> <code>65</code>
 
-<b>About :</b> 
+<b>About :</b> Follow through the thrilling capers and chilling escapades of Krishna and Balram, with Radha, and friends in this all new, action packed, adrenaline churning series.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -546,7 +546,7 @@ IMDb Data:
     
 <b>Total Episode :</b> <code>78</code>
 
-<b>About :</b> 
+<b>About :</b> Take a look at the depiction of Maa Shakti who is known as the divine force in Hinduism. She is considered the source of power and creation and can transform herself into various forms.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -555,8 +555,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     KBM_GANESH_KI_SAVARI = """<b>Kaise Bane Mushak Ganeshji Ki Savari?</b> ✨
+    
 <b>Total Episode :</b> <code>08</code>
-<b>About :</b> 
+
+<b>About :</b> Ganesh arrives in Devlok and engages in a fierce battle with Mushikasur. Ganesh seeks Somnandi's help to fight Mushikasur and his army of mice...
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -565,8 +567,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     RADHAKRISHN = """<b>Radhakrishn (2018)</b> ✨
+    
 <b>Total Episode :</b> <code>1145</code>
-<b>About :</b> 
+
+<b>About :</b> Lord Krishna and Radha share pure love for one another but things take a turn when Radha receives a curse that she will be separated from him.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -575,8 +579,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     KARN_SANGINI = """<b>Karn Sangini</b> ✨
+    
 <b>Total Episode :</b> <code>90</code>
-<b>About :</b> 
+
+<b>About :</b> Urvi is a princess of noble birth and her parents want her to marry her childhood friend Arjun. However, she falls for the Karna, a man of low caste and invites a whole set of problems.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -585,8 +591,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     M_VADH = """<b>Mahishasura Vadh</b> ✨
+    
 <b>Total Episode :</b> <code>10</code>
-<b>About :</b> 
+
+<b>About :</b> Mahishasura Vadh is a mini-series based on the remarkable story of how Goddess Durga killed the powerful buffalo demon Mahishasura, exemplifying...
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -595,8 +603,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     SB_MAHAPURAN = """<b>Shrimad Bhagwat Mahapuran</b> ✨
+    
 <b>Total Episode :</b> <code>00</code>
-<b>About :</b> 
+
+<b>About :</b> In a divine discourse with Radha, Lord Krishna takes it upon himself to explain texts from the ancient and fabled Srimad Bhagwat, sacred in Hinduism, which offers mankind profound spiritual knowledge.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -605,8 +615,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     JJMV = """<b>Jag Jaanani Maa Vaishnodevi</b> ✨
+    
 <b>Total Episode :</b> <code>207</code>
-<b>About :</b> 
+
+<b>About :</b> The goddesses combine their powers to create Goddess Vaishnodevi and task her with the responsibility of destroying the forces of evil that threaten to destroy Earth.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -615,8 +627,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     NAMAH = """<b>Namah Lakshmi Narayan</b> ✨
+    
 <b>Total Episode :</b> <code>65</code>
-<b>About :</b> 
+
+<b>About :</b> Eternal friends Lord Mahadev and Lord Narayan are quite different from each other but maintain a harmonious relationship. Soon, things change as their bond is challenged by the arrival of Kalyug.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -625,8 +639,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     DEVA_SHREE_GANESHA = """<b>Deva Shree Ganesha</b> ✨
+    
 <b>Total Episode :</b> <code>11</code>
-<b>About :</b> 
+
+<b>About :</b> People celebrate Ganesh Chaturthi, which is dedicated to Lord Ganesh, the remover of obstacles. Devotees bring home idols and adorn them with garlands, perform 'aartis' and distribute sweets.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -635,8 +651,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     DEV_ADI_PARASHAKTI = """<b>Devi Adi Parashakti</b> ✨
+    
 <b>Total Episode :</b> <code>87</code>
-<b>About :</b> 
+
+<b>About :</b> Devi Adi Parashakti, the goddess of the universe, takes various forms on Earth in order to guide mankind towards humanity and compassion.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -645,8 +663,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     KAHAT_HANUMAN_JSRAM = """<b>Kahat Hanuman Jaishree Ram</b> ✨
+    
 <b>Total Episode :</b> <code>120</code>
-<b>About</b> :
+
+<b>About</b> : Hanuman, a beloved deity in Hinduism, conquers various obstacles and overcomes insurmountable challenges in his quest to rid the world of evil.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -655,8 +675,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     BAAL_SHIV = """<b>Baal Shiv</b> ✨
+    
 <b>Total Episode :</b> <code>215</code>
-<b>About</b> :
+
+<b>About</b> : Lord Shiva in his younger avatar, faces several challenges as he strives to uphold justice in his realm and facilitates the destruction of evil forces.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -665,8 +687,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     JKLK = """<b>Jai Kanhaiya Lal Ki</b> ✨
+    
 <b>Total Episode :</b> <code>185</code>
-<b>About</b> :
+
+<b>About</b> : Young Krishna grows up with a strong bond with his mother, Devaki, and his foster-mother, Yashoda. However, his power and strength are tested when he must protect his family and village from the evil Kans.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -675,8 +699,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     KASHIBAI = """<b>Kashibai</b> ✨
+    
 <b>Total Episode :</b> <code>201</code>
-<b>About</b> :
+
+<b>About</b> : Kashibai is raised as a spoiled child. She faces challenges as an adult when her husband Peshwa works to expand the Maratha empire and she must prove her capabilities to become an administrator.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -685,8 +711,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     THE_LEGEND_OF_HANUMAN = """<b>The Legend of Hanuman</b> ✨
+    
 <b>Total Episode :</b> <code>32</code>
-<b>About</b> :
+
+<b>About</b> : Lord Mahadev is reborn as Hanuman to serve Lord Rama, and becomes a beacon of hope amidst the harrowing darkness.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -695,8 +723,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     BRIJ_KE_GOPAL = """<b>Brij Ke Gopal</b> ✨
+    
 <b>Total Episode :</b> <code>48</code>
-<b>About</b> :
+
+<b>About</b> : Lord Krishna incarnates as a human on Earth to end the agony of his devotees and battle against evil, restoring the faith of people in good.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -705,8 +735,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     GARUD = """<b>Dharm Yoddha Garud</b> ✨
+    
 <b>Total Episode :</b> <code>234</code>
-<b>About</b> :
+
+<b>About</b> : Garud, a mighty warrior, strives to maintain peace and fights injustice. He faces off powerful adversaries while protecting and helping those in need.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -715,8 +747,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     PARSHURAM = """<b>Parshuram</b> ✨
+    
 <b>Total Episode :</b> <code>160</code>
-<b>About</b> :
+
+<b>About</b> : Parashurama, the sixth incarnation of the God Vishnu, comes to Earth with the sole purpose of fighting off all evil and protecting humans.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -725,8 +759,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     K_SHANIDEV = """<b>Karmadhikari Shanidev</b> ✨
+    
 <b>Total Episode :</b> <code>39</code>
-<b>About</b> :
+
+<b>About</b> : Karmadhikari Shanidev is an Indian Mythology television series produced by Triangle Film Company and premiered on 11 December 2023 on Shemaroo TV.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -735,8 +771,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     SHIV_SHAKTI = """<b>Shiv Shakti</b> ✨
+    
 <b>Total Episode :</b> <code>Running...</code>
-<b>About</b> :
+
+<b>About</b> : Lord Shiva and his wife, Goddess Parvati, navigate their relationship and duties and offer sacrifices and brave separation to selflessly care for humanity.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -745,8 +783,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     SHRIMAD_RAMAYAN = """<b>Shrimad Ramayan</b> ✨
+    
 <b>Total Episode :</b> <code>Running...</code>
-<b>About</b> :
+
+<b>About</b> : A religious leader reads out the Ramayana and explains it to a large gathering of devotees in a brief, simple and easy-to-understand manner.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -755,8 +795,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     P_ASHOK = """<b>Prachand Ashok</b> ✨
+    
 <b>Total Episode :</b> <code>Running...</code>
-<b>About</b> :
+
+<b>About</b> : Prachand Ashoka is an upcoming historical soap opera produced by Balaji Telefilms. It stars Adnan Khan, Simba Nagpal, Tanusri Dasgupta and Mallika Singh. The serial story is based on the story of Emperor Ashoka. The show will be aired on Colors TV in January 2024.
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
@@ -765,8 +807,10 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     C_HANUMAN = """<b>Chiranjeevi Hanuman</b> ✨
+    
 <b>Total Episode :</b> <code>Coming Soon...</code>
-<b>About</b> :
+
+<b>About</b> : Coming Soon
 
 <b>How To Search Episode ⁉️</b>
 <code>Here</code>
