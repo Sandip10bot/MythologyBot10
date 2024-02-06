@@ -2151,8 +2151,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Back', callback_data='1988')
 	]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-                text=(script.LUV_KUSH),
+        await query.message.reply_photo(
+		photo="https://graph.org/file/d3553fb949c9cfab3fb50.jpg",
+                caption=(script.LUV_KUSH),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
         )
