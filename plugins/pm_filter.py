@@ -2126,7 +2126,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
           InlineKeyboardButton('2022', callback_data='2022'),
           InlineKeyboardButton('2023', callback_data='2023'),
           InlineKeyboardButton('2024', callback_data='2024')
-        ]
+	],
+	[
+	  InlineKeyboardButton('🔥 Update! ', url='https://t.me/Radhakriishn')
+      ]
       ]
       reply_markup = InlineKeyboardMarkup(buttons)
       await query.message.edit_text(
@@ -3015,13 +3018,30 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "dap":
         buttons = [[
-            InlineKeyboardButton('Back', callback_data='2020')
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='2020')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-                text=(script.DEV_ADI_PARASHAKTI),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/c3b01dc94b5aab56afc92.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DEV_ADI_PARASHAKTI,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "khjr":
         buttons = [[
@@ -3097,14 +3117,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "jklk":
         buttons = [[
-            InlineKeyboardButton('Back', callback_data='2021')
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='2021')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-                text=(script.JKLK),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-      	)
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/e8af5e8c620cb1a60c7e6.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.JKLK,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "kashibai":
         buttons = [[
         #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
@@ -3134,13 +3171,30 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tloh":
         buttons = [[
-            InlineKeyboardButton('Back', callback_data='2021')
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='2021')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-                text=(script.THE_LEGEND_OF_HANUMAN),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/8b7d10f119f365e7d66b8.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.THE_LEGEND_OF_HANUMAN,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "2022":
         buttons = [[
@@ -3160,14 +3214,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "bkg":
         buttons = [[
-            InlineKeyboardButton('Back', callback_data='2022')
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='2022')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-                text=(script.BRIJ_KE_GOPAL),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-      	)
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/2a97feb295ebc020f4c04.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.BRIJ_KE_GOPAL,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "dyg":
         buttons = [[
         #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
@@ -3197,13 +3268,30 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "parshuram":
         buttons = [[
-            InlineKeyboardButton('Back', callback_data='2022')
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='2022')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-                text=(script.PARSHURAM),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/018cab394217bc1179fbf.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PARSHURAM,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "2023":
         buttons = [[
@@ -3318,14 +3406,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "ch":
         buttons = [[
-            InlineKeyboardButton('Back', callback_data='2024')
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='2024')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-                text=(script.C_HANUMAN),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-      	)
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/b41fc856726b77de73b00.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.C_HANUMAN,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "pa":
         buttons = [[
         #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
