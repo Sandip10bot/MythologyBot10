@@ -3,7 +3,7 @@ import math
 import time 
 from asyncio import sleep
 from pyrogram import Client, filters
-from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
+from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply, CallbackQuery
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.enums import MessageMediaType
 import humanize
