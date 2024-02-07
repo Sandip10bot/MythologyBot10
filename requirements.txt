@@ -22,6 +22,7 @@ motor==2.5.1
 #---ytdl----#
 youtube-search
 yt-dlp==2023.2.17
+ytthumb
 
 #---imdb---#
 git+https://github.com/cinemagoer/cinemagoer
