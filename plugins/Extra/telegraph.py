@@ -16,9 +16,9 @@ async def telegraph_upload(bot, update):
     if not file_info:
         await update.reply_text("Not supported!")
         return
-    text = await update.reply_text(text="<code>𝐖𝐚𝐢𝐭 𝐁𝐫𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐭𝐨 𝐌𝐲 𝐒𝐞𝐫𝐯𝐞𝐫 ...</code>", disable_web_page_preview=True)   
+    text = await update.reply_text(text="<code>Downloading...</code>", disable_web_page_preview=True)   
     media = await update.reply_to_message.download()   
-    await text.edit_text(text="<code>𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐞𝐝. 𝐍𝐨𝐰 𝐈 𝐚𝐦 𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐭𝐨 𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡 𝐋𝐢𝐧𝐤 ...</code>", disable_web_page_preview=True)                                            
+    await text.edit_text(text="<code>Uploading...</code>", disable_web_page_preview=True)                                            
     try:
         response = upload_file(media)
     except Exception as error:
