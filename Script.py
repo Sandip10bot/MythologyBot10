@@ -518,7 +518,7 @@ IMDb Data:
 ~ just copy the above and paste it below. ~ 
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
-    SURYAPUTRA_KARN = """<b>Siya Ke Ram</b> ✨
+    SIYA_KE_RAM = """<b>Siya Ke Ram</b> ✨
     
 <b>Total Episode :</b> <code>304</code>
 
