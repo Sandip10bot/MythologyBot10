@@ -9,7 +9,7 @@ Here You Can Find Many <b>Mythology</b> Serials.
 <b>👇 Check Help Button For More Info</b>!!.
     """
 
-    ABOUT_TXT = """--> My Name : {}
+    ABOUT_TXT = """--> <b>My Name</b> : <a href="https://t.me/Radhekrishn_bot">𝕽α∂нαкяιѕнη</a>
    
 • <b>Devoloped By</b> : @Sandip10x ❤️
 This bot can Provide You Many Mythology show on your request.
