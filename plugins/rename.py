@@ -222,7 +222,7 @@ async def see_caption(client, message):
 
 
 # Rename
-
+"""
 @Client.on_callback_query(filters.regex('rename'))
 async def rename(bot,update):
 	user_id = update.message.chat.id
@@ -314,3 +314,4 @@ async def doc(bot, update):
     await ms.delete() 
     os.remove(file_path) 
     if ph_path: os.remove(ph_path)
+"""
