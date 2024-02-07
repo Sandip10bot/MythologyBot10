@@ -470,7 +470,7 @@ IMDb Data:
 ~ just copy the above and paste it below. ~ 
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
-    DKDM = """<b>Buddha</b> ✨
+    BUDDHA = """<b>Buddha</b> ✨
     
 <b>Total Episode :</b> <code>55</code>
 
