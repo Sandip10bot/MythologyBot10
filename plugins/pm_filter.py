@@ -53,7 +53,7 @@ BUTTONS1 = {}
 BUTTONS2 = {}
 SPELL_CHECK = {}
 
-"""
+
 @Client.on_callback_query(filters.regex('rename'))
 async def rename(bot,update):
 	user_id = update.message.chat.id
@@ -146,7 +146,7 @@ async def doc(bot, update):
     await ms.delete() 
     os.remove(file_path) 
     if ph_path: os.remove(ph_path) 
-"""
+
 @Client.on_message(filters.text & filters.incoming)
 async def give_filter(client, message):
     k = await manual_filters(client, message)
@@ -2238,7 +2238,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
       )
     elif query.data == "1988":
         buttons = [[
-            InlineKeyboardButton('Luv Kush - Uttar Ramayan', callback_data='lk')
+            InlineKeyboardButton('✨ Luv Kush - Uttar Ramayan ✨', callback_data='lk')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
 	]]
@@ -2277,7 +2277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "1993":
         buttons = [[
-            InlineKeyboardButton('Shri Krishna', callback_data='sk')
+            InlineKeyboardButton('✨ Shri Krishna ✨', callback_data='sk')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2316,7 +2316,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "1997":
         buttons = [[
-            InlineKeyboardButton('Jai Hanuman', callback_data='jh')
+            InlineKeyboardButton('✨ Jai Hanuman ✨', callback_data='jh')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2355,7 +2355,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "1998":
         buttons = [[
-            InlineKeyboardButton('Mahabharat', callback_data='mbold')
+            InlineKeyboardButton('✨ Mahabharat ✨', callback_data='mbold')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2394,7 +2394,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2000":
         buttons = [[
-            InlineKeyboardButton('Jai Mahalakshmi', callback_data='jml')
+            InlineKeyboardButton('✨ Jai Mahalakshmi ✨', callback_data='jml')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2433,7 +2433,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2002":
         buttons = [[
-            InlineKeyboardButton('Shiv Mahapuran', callback_data='smp')
+            InlineKeyboardButton('✨ Shiv Mahapuran ✨', callback_data='smp')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2472,7 +2472,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2008":
         buttons = [[
-            InlineKeyboardButton('Meera', callback_data='meera')
+            InlineKeyboardButton('✨ Meera ✨', callback_data='meera')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2511,7 +2511,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2009":
         buttons = [[
-            InlineKeyboardButton('Little Krishna', callback_data='l_k')
+            InlineKeyboardButton('✨ Little Krishna ✨', callback_data='l_k')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2550,9 +2550,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2011":
         buttons = [[
-            InlineKeyboardButton('Dwarkadheesh', callback_data='dk')
+            InlineKeyboardButton('✨ Dwarkadheesh ✨', callback_data='dk')
 	],[
-	    InlineKeyboardButton('Devon Ke Dev Mahadev', callback_data='dkdm')
+	    InlineKeyboardButton('✨ Devon Ke Dev Mahadev ✨', callback_data='dkdm')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2618,11 +2618,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 	)
     elif query.data == "2013":
         buttons = [[
-            InlineKeyboardButton('Buddha', callback_data='buddha')
+            InlineKeyboardButton('✨ Buddha ✨', callback_data='buddha')
       	],[
-	    InlineKeyboardButton('MahaBharat', callback_data='mbnew')
+	    InlineKeyboardButton('✨ MahaBharat ✨', callback_data='mbnew')
       	],[
-	    InlineKeyboardButton('The Adventures Of Hatim', callback_data='hatim')
+	    InlineKeyboardButton('✨ The Adventures Of Hatim ✨', callback_data='hatim')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2715,11 +2715,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2015":
         buttons = [[
-            InlineKeyboardButton('Suryaputra Karn', callback_data='spk')
+            InlineKeyboardButton('✨ Suryaputra Karn ✨', callback_data='spk')
       	],[
-	    InlineKeyboardButton('Siya Ke Ram', callback_data='skr')
+	    InlineKeyboardButton('✨ Siya Ke Ram ✨', callback_data='skr')
 	],[
-	    InlineKeyboardButton('Krishna Balram', callback_data='kb')
+	    InlineKeyboardButton('✨ Krishna Balram ✨', callback_data='kb')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2812,9 +2812,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2017":
         buttons = [[
-            InlineKeyboardButton('Maa Shakti', callback_data='ms')
+            InlineKeyboardButton('✨ Maa Shakti ✨', callback_data='ms')
       	],[
-	    InlineKeyboardButton('Kaise Bane Mushak Ganeshji Ki Savari?', callback_data='gks')
+	    InlineKeyboardButton('✨ Kaise Bane Mushak Ganeshji Ki Savari? ✨', callback_data='gks')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2880,11 +2880,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2018":
         buttons = [[
-            InlineKeyboardButton('Radhakrishn', callback_data='rk')
+            InlineKeyboardButton('✨ Radhakrishn ✨', callback_data='rk')
 	],[
-	    InlineKeyboardButton('Karn Sangini', callback_data='ks')
+	    InlineKeyboardButton('✨ Karn Sangini ✨', callback_data='ks')
       	],[
-	    InlineKeyboardButton('Mahishasura Vadh', callback_data='msv')
+	    InlineKeyboardButton('✨ Mahishasura Vadh ✨', callback_data='msv')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -2977,11 +2977,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2019":
         buttons = [[
-            InlineKeyboardButton('Jag Jaanani Maa Vaishnodevi', callback_data='jjmv')
+            InlineKeyboardButton('✨ Jag Jaanani Maa Vaishnodevi ✨', callback_data='jjmv')
 	],[
-	    InlineKeyboardButton('Shrimad Bhagwat Mahapuran', callback_data='sbm')
+	    InlineKeyboardButton('✨ Shrimad Bhagwat Mahapuran ✨', callback_data='sbm')
 	],[
-	    InlineKeyboardButton('Namah Lakshmi Narayan', callback_data='nln')
+	    InlineKeyboardButton('✨ Namah Lakshmi Narayan ✨', callback_data='nln')
 	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -3074,11 +3074,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2020":
         buttons = [[
-            InlineKeyboardButton('Deva Shree Ganesha', callback_data='dsg')
+            InlineKeyboardButton('✨ Deva Shree Ganesha ✨', callback_data='dsg')
 	],[
-	    InlineKeyboardButton('Devi Adi Parashakti', callback_data='dap')
+	    InlineKeyboardButton('✨ Devi Adi Parashakti ✨', callback_data='dap')
       	],[
-      	    InlineKeyboardButton('Kahat Hanuman Jaishree Ram', callback_data='khjr')
+      	    InlineKeyboardButton('✨ Kahat Hanuman Jaishree Ram ✨', callback_data='khjr')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -3171,13 +3171,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2021":
         buttons = [[
-            InlineKeyboardButton('Baal Shiv', callback_data='bs')
+            InlineKeyboardButton('✨ Baal Shiv ✨', callback_data='bs')
       	],[
-      	    InlineKeyboardButton('Kashibai', callback_data='kashibai')
+      	    InlineKeyboardButton('✨ Kashibai ✨', callback_data='kashibai')
       	],[
-      	    InlineKeyboardButton('Jai Kanhaiya Lal Ki', callback_data='jklk')
+      	    InlineKeyboardButton('✨ Jai Kanhaiya Lal Ki ✨', callback_data='jklk')
       	],[
-      	    InlineKeyboardButton('The Legend of Hanuman', callback_data='tloh')
+      	    InlineKeyboardButton('✨ The Legend of Hanuman ✨', callback_data='tloh')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -3297,11 +3297,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2022":
         buttons = [[
-            InlineKeyboardButton('Brij Ke Gopal', callback_data='bkg')
+            InlineKeyboardButton('✨ Brij Ke Gopal ✨', callback_data='bkg')
 	],[
-	    InlineKeyboardButton('Dharm Yoddha Garud', callback_data='dyg')
+	    InlineKeyboardButton('✨ Dharm Yoddha Garud ✨', callback_data='dyg')
       	],[
-      	    InlineKeyboardButton('Parshuram', callback_data='parshuram')
+      	    InlineKeyboardButton('✨ Parshuram ✨', callback_data='parshuram')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -3394,9 +3394,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2023":
         buttons = [[
-            InlineKeyboardButton('Karmadhikari Shanidev', callback_data='kshanidev')
+            InlineKeyboardButton('✨ Karmadhikari Shanidev ✨', callback_data='kshanidev')
 	],[
-	    InlineKeyboardButton('Shiv Shakti', callback_data='ss')
+	    InlineKeyboardButton('✨ Shiv Shakti ✨', callback_data='ss')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
@@ -3462,11 +3462,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "2024":
         buttons = [[
-            InlineKeyboardButton('Shrimad Ramayan', callback_data='s_r')
+            InlineKeyboardButton('✨ Shrimad Ramayan ✨', callback_data='s_r')
       	],[
-	    InlineKeyboardButton('Prachand Ashok', callback_data='pa')
+	    InlineKeyboardButton('✨ Prachand Ashok ✨', callback_data='pa')
 	],[
-      	    InlineKeyboardButton('Chiranjeevi Hanuman', callback_data='ch')
+      	    InlineKeyboardButton('✨ Chiranjeevi Hanuman ✨', callback_data='ch')
       	],[
             InlineKeyboardButton('Back', callback_data='s_y')
         ]]
