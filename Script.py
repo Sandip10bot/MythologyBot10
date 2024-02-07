@@ -4,7 +4,7 @@ class script(object):
 Welcome To <b>𝕽α∂нαкяιѕнη</b> 😇
 Here You Can Find Many <b>Mythology</b> Serials.
     
-➺ <b>Use</b>: /serials. •
+➺ <b>Use</b>: /serials (list of all serials)•
     
 <b>👇 Check Help Button For More Info</b>!!.
     """
