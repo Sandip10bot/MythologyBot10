@@ -1082,7 +1082,7 @@ async def stop_button(bot, message):
     await msg.edit("**✅️ 𝙱𝙾𝚃 𝙸𝚂 𝚁𝙴𝚂𝚃𝙰𝚁𝚃𝙴𝙳. 𝙽𝙾𝚆 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴**")
     os.execl(sys.executable, sys.executable, *sys.argv)@Client.on_message(filters.private & filters.command(["font"]))
 
-@Client.on_message(filters.command("serials") & filters.user(ADMINS))
+@Client.on_message(filters.command("serials"))
 async def serials(bot, message):
     msg = await bot.send_message(text="**Processing...**", chat_id=message.chat.id)       
     await asyncio.sleep(2)
@@ -1111,6 +1111,8 @@ async def serials(bot, message):
         InlineKeyboardButton('2023', callback_data='2023'),
         InlineKeyboardButton('2024', callback_data='2024')
         #InlineKeyboardButton('1998', callback_data='1998')
+    ],[
+        InlineKeyboardButton('🔥 Updates!', url='https://t.me/Radhakriishn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(
