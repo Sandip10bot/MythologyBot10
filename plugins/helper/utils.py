@@ -3,6 +3,7 @@ from datetime import datetime
 from pytz import timezone
 #from config import Config, Txt 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from info import ADMINS, LOG_CHANNEL
 
 PROGRESS_BAR = """\n
 ╭━━━━❰• **Process** •❱━➣
@@ -29,7 +30,7 @@ async def progress_for_pyrogram(current, total, ud_type, message, start):
             ''.join(["█" for i in range(math.floor(percentage / 5))]),
             ''.join(["░" for i in range(20 - math.floor(percentage / 5))])
         )            
-        tmp = progress + Txt.PROGRESS_BAR.format( 
+        tmp = progress + PROGRESS_BAR.format( 
             round(percentage, 2),
             humanbytes(current),
             humanbytes(total),
@@ -77,12 +78,12 @@ def convert(seconds):
     return "%d:%02d:%02d" % (hour, minutes, seconds)
 
 async def send_log(b, u):
-    if Config.LOG_CHANNEL is not None:
+    if LOG_CHANNEL is not None:
         curr = datetime.now(timezone("Asia/Kolkata"))
         date = curr.strftime('%d %B, %Y')
         time = curr.strftime('%I:%M:%S %p')
         await b.send_message(
-            Config.LOG_CHANNEL,
+            LOG_CHANNEL,
             f"**--Nᴇᴡ Uꜱᴇʀ Sᴛᴀʀᴛᴇᴅ Tʜᴇ Bᴏᴛ--**\n\nUꜱᴇʀ: {u.mention}\nIᴅ: `{u.id}`\nUɴ: @{u.username}\n\nDᴀᴛᴇ: {date}\nTɪᴍᴇ: {time}\n\nBy: {b.mention}"
         )
         
