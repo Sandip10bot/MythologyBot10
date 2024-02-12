@@ -36,7 +36,7 @@ from database.gfilters_mdb import (
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 #from helper.helper_func import *
-from plugins.rename import *
+#from plugins.rename import *
 import humanize
 from PIL import Image
 from PIL import Image
