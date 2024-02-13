@@ -3568,6 +3568,184 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "drs1":
+        buttons = [[
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+	    InlineKeyboardButton('✨ Season 1 ✨', callback_data='ds_ram')
+	],[
+	    InlineKeyboardButton('🔥 Updates!', url='https://t.me/Radhakriishn')
+	]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DISC_RAMAYAN,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.MARKDOWN
+        )
+    elif query.data == "ds_ram":
+        buttons = [[
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+	    InlineKeyboardButton('360p', callback_data='dr_360'),
+	    InlineKeyboardButton('480p', callback_data='dr_480')
+	],[
+	    InlineKeyboardButton('720p', callback_data='dr_720'),
+	    InlineKeyboardButton('1080p', callback_data='dr_1080')
+	],[
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='drs1')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DISC_RAMAYAN,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.MARKDOWN
+        )
+    elif query.data == "dr_360":
+        buttons = [[
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+	    #InlineKeyboardButton('✨ Season 1 ✨', callback_data='drs1')
+	#],[
+	    InlineKeyboardButton('Back', url='ds_ram')
+	]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DR_360p,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.MARKDOWN
+        )
+    elif query.data == "dr_480":
+        buttons = [[
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+	    #InlineKeyboardButton('✨ Season 1 ✨', callback_data='drs1')
+	#],[
+	    InlineKeyboardButton('Back', url='ds_ram')
+	]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DR_480p,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.MARKDOWN
+        )
+    elif query.data == "dr_720":
+        buttons = [[
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+	    #InlineKeyboardButton('✨ Season 1 ✨', callback_data='drs1')
+	#],[
+	    InlineKeyboardButton('Back', url='ds_ram')
+	]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DR_720p,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.MARKDOWN
+        )
+    elif query.data == "dr_1080":
+        buttons = [[
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+	    #InlineKeyboardButton('✨ Season 1 ✨', callback_data='drs1')
+	#],[
+	    InlineKeyboardButton('Back', url='ds_ram')
+	]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DR_1080p,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.MARKDOWN
+        )
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
         grpid = await active_connection(str(query.from_user.id))
