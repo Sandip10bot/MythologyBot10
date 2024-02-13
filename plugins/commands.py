@@ -1121,4 +1121,22 @@ async def serials(bot, message):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
     )
+    await msg.delete() 
+
+@Client.on_message(filters.command("ramayana"))
+async def ramayana(bot, message):
+    msg = await bot.send_message(text="**Searching Seasons...**", chat_id=message.chat.id)       
+    await asyncio.sleep(2)
+    buttons = [[
+        InlineKeyboardButton('1988', callback_data='1988'),
+    ],[
+        InlineKeyboardButton('🔥 Updates!', url='https://t.me/Radhakriishn')
+    ]]
+    reply_markup = InlineKeyboardMarkup(buttons)
+    await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.SERIALS_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+    )
     await msg.delete()
