@@ -1123,6 +1123,7 @@ async def serials(bot, message):
     )
     await msg.delete() 
 
+"""
 @Client.on_message(filters.command("ramayana"))
 async def ramayana(bot, message):
     msg = await bot.send_message(text="**Searching Seasons...**", chat_id=message.chat.id)       
@@ -1140,3 +1141,4 @@ async def ramayana(bot, message):
             parse_mode=enums.ParseMode.HTML
     )
     await msg.delete()
+"""
