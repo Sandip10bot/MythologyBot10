@@ -1123,22 +1123,20 @@ async def serials(bot, message):
     )
     await msg.delete() 
 
-"""
-@Client.on_message(filters.command("ramayana"))
-async def ramayana(bot, message):
-    msg = await bot.send_message(text="**Searching Seasons...**", chat_id=message.chat.id)       
+@Client.on_message(filters.command("serials"))
+async def ds_ram(bot, message):
+    msg = await bot.send_message(text="**Processing...**", chat_id=message.chat.id)       
     await asyncio.sleep(2)
     buttons = [[
-        InlineKeyboardButton('Season 1', callback_data='DISN_RANAYANA'),
+        InlineKeyboardButton('✨ Season 1 ✨', callback_data='ds_ram')
     ],[
         InlineKeyboardButton('🔥 Updates!', url='https://t.me/Radhakriishn')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(
-            photo=random.choice(PICS),
-            caption=script.SERIALS_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
+            photo="https://graph.org/file/3f03ed1d5e85630d8219e.jpg",
+            caption=script.DISC_RAMAYAN,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
+            parse_mode=enums.ParseMode.MARKDOWN
     )
-    await msg.delete()
-"""
+    await msg.delete() 
