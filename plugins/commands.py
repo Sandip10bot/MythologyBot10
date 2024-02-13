@@ -1128,7 +1128,7 @@ async def ramayana(bot, message):
     msg = await bot.send_message(text="**Searching Seasons...**", chat_id=message.chat.id)       
     await asyncio.sleep(2)
     buttons = [[
-        InlineKeyboardButton('1988', callback_data='1988'),
+        InlineKeyboardButton('Season 1', callback_data='DISN_RANAYANA'),
     ],[
         InlineKeyboardButton('🔥 Updates!', url='https://t.me/Radhakriishn')
     ]]
