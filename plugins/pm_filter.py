@@ -3589,7 +3589,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+            InputMediaPhoto("https://graph.org/file/5e12af555a7b6608da253.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3622,7 +3622,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+            InputMediaPhoto("https://graph.org/file/5e12af555a7b6608da253.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3651,7 +3651,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+            InputMediaPhoto("https://graph.org/file/5e12af555a7b6608da253.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3680,7 +3680,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+            InputMediaPhoto("https://graph.org/file/5e12af555a7b6608da253.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3709,7 +3709,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+            InputMediaPhoto("https://graph.org/file/5e12af555a7b6608da253.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3738,7 +3738,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/c9ac11819db3d97025252.jpg")
+            InputMediaPhoto("https://graph.org/file/5e12af555a7b6608da253.jpg")
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
