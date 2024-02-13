@@ -3568,6 +3568,53 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+
+elif query.data == "s_y":
+      buttons = [
+        [
+	  InlineKeyboardButton('Episode 1', url='https://t.me/Radhakriishn'),
+          InlineKeyboardButton('Episode 2 ', url='https://t.me/Radhakriishn'),
+          InlineKeyboardButton('Episode 3 ', url='https://t.me/Radhakriishn')
+      ]
+      ]
+      reply_markup = InlineKeyboardMarkup(buttons)
+      await query.message.edit_text(
+                text=(script.SEASON_TXT),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+      )
+    elif query.data == "DISN_RAMAYANA":
+        buttons = [[
+            InlineKeyboardButton('✨ Legend of Ramayana ✨', callback_data='DISN_RAMAYANA')
+	],[
+            InlineKeyboardButton('Back', callback_data='s_y')
+	]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+                text=(script.Z_TXT),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "DISN_RAMAYANA":
+        buttons = [[
+        #    InlineKeyboardButton('❗❗ Disclaimer ❗❗', callback_data='disclaimer')
+        #], [
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='1988')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://graph.org/file/d3553fb949c9cfab3fb50.jpg")
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
         grpid = await active_connection(str(query.from_user.id))
