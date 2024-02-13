@@ -3636,7 +3636,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         #], [
 	    #InlineKeyboardButton('✨ Season 1 ✨', callback_data='drs1')
 	#],[
-	    InlineKeyboardButton('Back', url='ds_ram')
+	    InlineKeyboardButton('Back', callback_data='ds_ram')
 	]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3665,7 +3665,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         #], [
 	    #InlineKeyboardButton('✨ Season 1 ✨', callback_data='drs1')
 	#],[
-	    InlineKeyboardButton('Back', url='ds_ram')
+	    InlineKeyboardButton('Back', callback_data='ds_ram')
 	]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3694,7 +3694,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         #], [
 	    #InlineKeyboardButton('✨ Season 1 ✨', callback_data='drs1')
 	#],[
-	    InlineKeyboardButton('Back', url='ds_ram')
+	    InlineKeyboardButton('Back', callback_data='ds_ram')
 	]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -3723,7 +3723,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         #], [
 	    #InlineKeyboardButton('✨ Season 1 ✨', callback_data='drs1')
 	#],[
-	    InlineKeyboardButton('Back', url='ds_ram')
+	    InlineKeyboardButton('Back', callback_data='ds_ram')
 	]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
