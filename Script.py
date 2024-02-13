@@ -825,8 +825,7 @@ IMDb Data:
  (__) \___/  (____/ \__/ (__) (____)"""
 
 #New_added
-SEASON_TXT = """<b>Here 👇 Is Available Season To Get Serial Episode !!</b>"""
-    Z_TXT = """<b>Here 👇 Is Available Episode In These Season</b> !!"""
+    #SEASON_TXT = """<b>Here 👇 Is Available Season To Get Serial Episode !!</b>"""
+    #Z_TXT = """<b>Here 👇 Is Available Episode In These Season</b> !!"""
     
-    DISN_RAMAYANA = """<b>Legends Of The Ramayana</b> ✨
-"""
+    #DISN_RAMAYANA = """<b>Legends Of The Ramayana</b> ✨
