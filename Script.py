@@ -823,3 +823,10 @@ IMDb Data:
 (_  _)/ __)  (  _ \ /  \(_  _)(__  )
   )( ( (_ \   ) _ ((  O ) )(   / _/ 
  (__) \___/  (____/ \__/ (__) (____)"""
+
+#New_added
+SEASON_TXT = """<b>Here 👇 Is Available Season To Get Serial Episode !!</b>"""
+    Z_TXT = """<b>Here 👇 Is Available Episode In These Season</b> !!"""
+    
+    DISN_RAMAYANA = """<b>Legends Of The Ramayana</b> ✨
+"""
