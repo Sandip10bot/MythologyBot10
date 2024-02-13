@@ -818,6 +818,21 @@ IMDb Data:
 ~ just copy the above and paste it below. ~ 
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
+    DISC_RAMAYAN = """
+Discovery+ Ramayan 
+"""
+    DR_360p = """
+360p
+"""
+    DR_480p = """
+480p
+"""
+    DR_720p = """
+720p
+"""
+    DR_1080p = """
+1080p
+"""
     LOGO = """
  ____  ___    ____   __  ____  ____ 
 (_  _)/ __)  (  _ \ /  \(_  _)(__  )
