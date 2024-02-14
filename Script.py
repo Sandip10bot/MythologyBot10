@@ -819,19 +819,43 @@ IMDb Data:
 <b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     DISC_RAMAYAN = """
-Discovery+ Ramayan 
+<b>Legends of the Ramayana with Amish</b>
+
+<b>About</b> : We begin our journey from the ancient city of Ayodhya, where we reveal some intriguing secrets. The current day crown prince of this once powerful city tells us about the moral complexities of the Ramayana and how they remain relevant to India.
+
+<b>Total Episode</b> : 3 (In 3 Qualities) 
+..
+<b>Uploaded By</b> : @Radhekrishn_bot !!
 """
     DR_360p = """
-360p
+<b>Your Link Is Genrated !! 🥳</b>
+
+<b>Info</b> : Quality 360p And All 3 Episode Added In This Link Open And Get The Episode!!
+
+<b>CLICK HERE 👇</b>
+(https://clk.asia/1HJ13m)
+_
 """
     DR_480p = """
-480p
+<b>Your Link Is Genrated !! 🥳</b>
+
+<b>Info</b> : Quality 480p And All 3 Episode Added In This Link Open And Get The Episode!!
+
+<b>CLICK HERE 👇</b>
+(https://clk.asia/fGrTA)
+_
 """
     DR_720p = """
-720p
+<b>Your Link Is Genrated !! 🥳</b>
+
+<b>Info</b> : Quality 720p And All 3 Episode Added In This Link Open And Get The Episode!!
+
+<b>CLICK HERE 👇</b>
+(https://clk.asia/sL2vm3)
+_
 """
     DR_1080p = """
-1080p
+<b>Sorry!</b> This Quality Is Not Available ❗️
 """
     LOGO = """
  ____  ___    ____   __  ____  ____ 
