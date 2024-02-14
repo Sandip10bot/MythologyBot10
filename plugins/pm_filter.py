@@ -3595,7 +3595,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.DISC_RAMAYAN,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "ds_ram":
         buttons = [[
@@ -3628,7 +3628,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.DISC_RAMAYAN,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "dr_360":
         buttons = [[
@@ -3657,7 +3657,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.DR_360p,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "dr_480":
         buttons = [[
@@ -3686,7 +3686,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.DR_480p,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "dr_720":
         buttons = [[
@@ -3715,7 +3715,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.DR_720p,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "dr_1080":
         buttons = [[
@@ -3744,7 +3744,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.DR_1080p,
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode=enums.ParseMode.HTML
         )
     elif query.data.startswith("setgs"):
         ident, set_type, status, grp_id = query.data.split("#")
