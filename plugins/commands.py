@@ -1123,8 +1123,8 @@ async def serials(bot, message):
     )
     await msg.delete() 
 
-@Client.on_message(filters.command("dc_ram"))
-async def ds_ram(bot, message):
+@Client.on_message(filters.command("ramayana"))
+async def ramayana(bot, message):
     msg = await bot.send_message(text="**Processing...**", chat_id=message.chat.id)       
     await asyncio.sleep(2)
     buttons = [[
