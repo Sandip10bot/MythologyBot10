@@ -4,6 +4,7 @@ from pyrogram.errors.exceptions.bad_request_400 import ChannelInvalid, UsernameI
 from info import ADMINS, LOG_CHANNEL, FILE_STORE_CHANNEL, PUBLIC_FILE_STORE
 from database.ia_filterdb import unpack_new_file_id
 from utils import temp
+from pyrogram.types import CallbackQuery
 import re
 import os
 import json
@@ -16,7 +17,7 @@ logger.setLevel(logging.INFO)
 async def allowed(_, __, message):
     if PUBLIC_FILE_STORE:
         return True
-    if message.from_user and message.from_user.id in ADMINS:
+    if message.from_user:
         return True
     return False
 
@@ -24,26 +25,26 @@ async def allowed(_, __, message):
 async def gen_link_s(bot, message):
     replied = message.reply_to_message
     if not replied:
-        return await message.reply('Reply to a message to get a shareable link.')
+        return await message.reply('Relpy File Then I Show You My Working')
     file_type = replied.media
     if file_type not in [enums.MessageMediaType.VIDEO, enums.MessageMediaType.AUDIO, enums.MessageMediaType.DOCUMENT]:
-        return await message.reply("Reply to a supported media")
+        return await message.reply("Please Reply Supported Media 😞")
     if message.has_protected_content and message.chat.id not in ADMINS:
-        return await message.reply("okDa")
+        return await message.reply("𝙾𝙺 𝙱𝚁𝙾")
     file_id, ref = unpack_new_file_id((getattr(replied, file_type.value)).file_id)
     string = 'filep_' if message.text.lower().strip() == "/plink" else 'file_'
     string += file_id
     outstr = base64.urlsafe_b64encode(string.encode("ascii")).decode().strip("=")
-    await message.reply(f"Here is your Link:\nhttps://t.me/{temp.U_NAME}?start={outstr}")
+    await message.reply(f"<bYour Link Is Ready :</b>\nhttps://t.me/{temp.U_NAME}?start={outstr}")
     
     
 @Client.on_message(filters.command(['batch', 'pbatch']) & filters.create(allowed))
 async def gen_link_batch(bot, message):
     if " " not in message.text:
-        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/TeamEvamaria/10 https://t.me/TeamEvamaria/20</code>.")
+        return await message.reply("Use Correct .\nExample ›› <code>/batch https://t.me/MythoSerial/344 https://t.me/MythoSerial/347</code>.")
     links = message.text.strip().split(" ")
     if len(links) != 3:
-        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/TeamEvamaria/10 https://t.me/TeamEvamaria/20</code>.")
+        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/MythoSerial/344 https://t.me/MythoSerial/347</code>.")
     cmd, first, last = links
     regex = re.compile("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")
     match = regex.match(first)
@@ -67,19 +68,19 @@ async def gen_link_batch(bot, message):
     try:
         chat_id = (await bot.get_chat(f_chat_id)).id
     except ChannelInvalid:
-        return await message.reply('This may be a private channel / group. Make me an admin over there to index the files.')
+        return await message.reply('Private Channel! Make Me Admin 🔥')
     except (UsernameInvalid, UsernameNotModified):
         return await message.reply('Invalid Link specified.')
     except Exception as e:
         return await message.reply(f'Errors - {e}')
 
-    sts = await message.reply("Generating link for your message.\nThis may take time depending upon number of messages")
+    sts = await message.reply("Generating...\nJust Sec")
     if chat_id in FILE_STORE_CHANNEL:
         string = f"{f_msg_id}_{l_msg_id}_{chat_id}_{cmd.lower().strip()}"
         b_64 = base64.urlsafe_b64encode(string.encode("ascii")).decode().strip("=")
-        return await sts.edit(f"Here is your link https://telegram.me/{temp.U_NAME}?start=DSTORE-{b_64}")
+        return await sts.edit(f"<b>Here Is Your Link ›› https://t.me/{temp.U_NAME}?start=DSTORE-{b_64}</b>")
 
-    FRMT = "Generating Link...\nTotal Messages: `{total}`\nDone: `{current}`\nRemaining: `{rem}`\nStatus: `{sts}`"
+    FRMT = "<b>╭━━━━━━━━━━━━━━━➣\n┣ Genrating...\n┣ Total Massage : `{total}`\n┣ Done : `{current}`\n┣ Remaining: `{rem}`\n┣ Status : `{sts}`\n╰━━━━━━━━━━━━━━━➣</b>"
 
     outlist = []
 
@@ -119,7 +120,7 @@ async def gen_link_batch(bot, message):
                 pass
     with open(f"batchmode_{message.from_user.id}.json", "w+") as out:
         json.dump(outlist, out)
-    post = await bot.send_document(LOG_CHANNEL, f"batchmode_{message.from_user.id}.json", file_name="Batch.json", caption="⚠️Generated for filestore.")
+    post = await bot.send_document(LOG_CHANNEL, f"batchmode_{message.from_user.id}.json", file_name="Batch.json", caption="👩🏻‍💻 File Store Logs 👩🏻‍💻")
     os.remove(f"batchmode_{message.from_user.id}.json")
     file_id, ref = unpack_new_file_id(post.document.file_id)
-    await sts.edit(f"Here is your link\nContains `{og_msg}` files.\n https://telegram.me/{temp.U_NAME}?start=BATCH-{file_id}")
+    await sts.edit(f"<b>Here Is Your Link `{og_msg}` 𝙵𝙸𝙻𝙴𝚂.\n https://t.me/{temp.U_NAME}?start=BATCH-{file_id}</b>")
