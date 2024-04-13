@@ -77,7 +77,7 @@ async def gen_link_batch(bot, message):
     if chat_id in FILE_STORE_CHANNEL:
         string = f"{f_msg_id}_{l_msg_id}_{chat_id}_{cmd.lower().strip()}"
         b_64 = base64.urlsafe_b64encode(string.encode("ascii")).decode().strip("=")
-        return await sts.edit(f"ʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋ https://t.me/{temp.U_NAME}?start=DSTORE-{b_64}")
+        return await sts.edit(f"ʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋ https://telegram.me/{temp.U_NAME}?start=DSTORE-{b_64}")
 
     FRMT = "ɢᴇɴᴇʀᴀᴛɪɴɢ ʟɪɴᴋ...\nᴛᴏᴛᴀʟ ᴍᴇssᴀɢᴇs: `{total}`\nᴅᴏɴᴇ: `{current}`\nʀᴇᴍᴀɪɴɪɴɢ : `{rem}`\nsᴛᴀᴛᴜs: `{sts}`"
 
@@ -122,4 +122,4 @@ async def gen_link_batch(bot, message):
     post = await bot.send_document(LOG_CHANNEL, f"batchmode_{message.from_user.id}.json", file_name="Batch.json", caption="⚠️ɢᴇɴᴇʀᴀᴛᴇᴅ ғᴏʀ ғɪʟᴇ sᴛᴏʀᴇ.")
     os.remove(f"batchmode_{message.from_user.id}.json")
     file_id, ref = unpack_new_file_id(post.document.file_id)
-    await sts.edit(f"ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ \nContains `{og_msg}` files.\n https://t.me/{temp.U_NAME}?start=BATCH-{file_id}")
+    await sts.edit(f"**Here Is Your Link**:\nContains `{og_msg}` files.\n\nhttps://telegram.me/{temp.U_NAME}?start=BATCH-{file_id}")
